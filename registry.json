@@ -19,6 +19,24 @@
       "author": "NeiP4n",
       "tags": ["git", "workflow", "documentation"],
       "stars": 0
+    },
+    {
+      "id": "safe-refactor",
+      "name": "Safe Refactor",
+      "description": "Refactor code without breaking it: tests-first, small behavior-preserving steps, commit after each move.",
+      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/safe-refactor.md",
+      "author": "NeiP4n",
+      "tags": ["refactoring", "engineering", "workflow"],
+      "stars": 0
+    },
+    {
+      "id": "pr-review",
+      "name": "PR Review",
+      "description": "Review a pull request thoroughly and constructively: correctness, security, tests, readability, kind feedback.",
+      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/pr-review.md",
+      "author": "NeiP4n",
+      "tags": ["code-review", "engineering", "collaboration"],
+      "stars": 0
     }
   ]
 }
