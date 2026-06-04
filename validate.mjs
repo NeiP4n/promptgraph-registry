@@ -67,6 +67,16 @@ try {
   const reg = JSON.parse(fs.readFileSync('registry.json', 'utf8'));
   if (!Array.isArray(reg.skills)) { console.log('FAIL registry.json: skills must be array'); failed = true; }
 
+  // codes must be unique and well-formed (pg-xxxxxx)
+  const codes = new Map();
+  for (const item of [...(reg.skills || []), ...(reg.bundles || [])]) {
+    if (item.code) {
+      if (!/^pg-[a-z0-9]{6}$/.test(item.code)) { console.log(`FAIL "${item.id}": bad code "${item.code}" (expect pg-xxxxxx)`); failed = true; }
+      if (codes.has(item.code)) { console.log(`FAIL duplicate code "${item.code}" on ${item.id} and ${codes.get(item.code)}`); failed = true; }
+      codes.set(item.code, item.id);
+    }
+  }
+
   // bundles must reference existing skill ids
   const skillIds = new Set((reg.skills || []).map(s => s.id));
   for (const b of reg.bundles || []) {
