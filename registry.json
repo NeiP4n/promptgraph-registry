@@ -10,6 +10,15 @@
       "author": "NeiP4n",
       "tags": ["debugging", "engineering", "workflow"],
       "stars": 0
+    },
+    {
+      "id": "commit-message",
+      "name": "Commit Message",
+      "description": "Write clear, conventional git commit messages that explain what changed and why.",
+      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/commit-message.md",
+      "author": "NeiP4n",
+      "tags": ["git", "workflow", "documentation"],
+      "stars": 0
     }
   ]
 }
