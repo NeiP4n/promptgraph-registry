@@ -4,7 +4,6 @@
   "skills": [
     {
       "id": "systematic-debugging",
-      "code": "pg-dba350",
       "name": "Systematic Debugging",
       "description": "Debug any bug methodically instead of guessing: reproduce, isolate, hypothesize, verify, fix, confirm.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/systematic-debugging.md",
@@ -14,7 +13,6 @@
     },
     {
       "id": "commit-message",
-      "code": "pg-74432e",
       "name": "Commit Message",
       "description": "Write clear, conventional git commit messages that explain what changed and why.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/commit-message.md",
@@ -24,7 +22,6 @@
     },
     {
       "id": "safe-refactor",
-      "code": "pg-693573",
       "name": "Safe Refactor",
       "description": "Refactor code without breaking it: tests-first, small behavior-preserving steps, commit after each move.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/safe-refactor.md",
@@ -34,7 +31,6 @@
     },
     {
       "id": "pr-review",
-      "code": "pg-dbf2aa",
       "name": "PR Review",
       "description": "Review a pull request thoroughly and constructively: correctness, security, tests, readability, kind feedback.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/pr-review.md",
@@ -46,7 +42,6 @@
   "bundles": [
     {
       "id": "engineering-essentials",
-      "code": "pg-b74a0c",
       "name": "Engineering Essentials",
       "description": "The core day-to-day developer workflow: debug, refactor, review, and commit like a pro.",
       "skills": ["systematic-debugging", "safe-refactor", "pr-review", "commit-message"],
@@ -56,7 +51,6 @@
     },
     {
       "id": "code-quality",
-      "code": "pg-7172db",
       "name": "Code Quality Pack",
       "description": "Keep a codebase healthy: thorough reviews, safe refactors, and clear commit history.",
       "skills": ["pr-review", "safe-refactor", "commit-message"],

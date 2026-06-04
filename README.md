@@ -38,6 +38,9 @@ When an agent can't find a good local skill, it browses this registry, installs 
      "stars": 0
    }
    ```
+   > **No `code` field needed.** Each skill's short code (`pg-xxxxxx`) is auto-generated
+   > deterministically from its `id`, so it's stable and unique without manual assignment.
+   > Users install with `install <code>`, `install <id>`, or `install <name>` — all work.
 4. Open a PR. CI validates automatically.
 
 ## Validation requirements (enforced by CI)
