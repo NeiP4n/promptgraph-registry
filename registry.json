@@ -38,5 +38,25 @@
       "tags": ["code-review", "engineering", "collaboration"],
       "stars": 0
     }
+  ],
+  "bundles": [
+    {
+      "id": "engineering-essentials",
+      "name": "Engineering Essentials",
+      "description": "The core day-to-day developer workflow: debug, refactor, review, and commit like a pro.",
+      "skills": ["systematic-debugging", "safe-refactor", "pr-review", "commit-message"],
+      "author": "NeiP4n",
+      "tags": ["engineering", "workflow", "starter"],
+      "stars": 0
+    },
+    {
+      "id": "code-quality",
+      "name": "Code Quality Pack",
+      "description": "Keep a codebase healthy: thorough reviews, safe refactors, and clear commit history.",
+      "skills": ["pr-review", "safe-refactor", "commit-message"],
+      "author": "NeiP4n",
+      "tags": ["quality", "code-review", "refactoring"],
+      "stars": 0
+    }
   ]
 }

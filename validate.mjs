@@ -66,6 +66,19 @@ if (fs.existsSync(skillsDir)) {
 try {
   const reg = JSON.parse(fs.readFileSync('registry.json', 'utf8'));
   if (!Array.isArray(reg.skills)) { console.log('FAIL registry.json: skills must be array'); failed = true; }
+
+  // bundles must reference existing skill ids
+  const skillIds = new Set((reg.skills || []).map(s => s.id));
+  for (const b of reg.bundles || []) {
+    if (!b.id || !b.name) { console.log(`FAIL bundle missing id/name`); failed = true; continue; }
+    if (!Array.isArray(b.skills) || b.skills.length === 0) {
+      console.log(`FAIL bundle "${b.id}": must list at least one skill`); failed = true; continue;
+    }
+    for (const sid of b.skills) {
+      if (!skillIds.has(sid)) { console.log(`FAIL bundle "${b.id}": references unknown skill "${sid}"`); failed = true; }
+    }
+    console.log(`OK   bundle: ${b.id} (${b.skills.length} skills)`);
+  }
 } catch (e) {
   console.log(`FAIL registry.json invalid: ${e.message}`);
   failed = true;
