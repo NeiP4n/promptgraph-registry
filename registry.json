@@ -1,5 +1,15 @@
 {
   "version": 1,
   "updated": "2026-06-04",
-  "skills": []
+  "skills": [
+    {
+      "id": "systematic-debugging",
+      "name": "Systematic Debugging",
+      "description": "Debug any bug methodically instead of guessing: reproduce, isolate, hypothesize, verify, fix, confirm.",
+      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/systematic-debugging.md",
+      "author": "NeiP4n",
+      "tags": ["debugging", "engineering", "workflow"],
+      "stars": 0
+    }
+  ]
 }
