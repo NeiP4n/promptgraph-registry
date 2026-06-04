@@ -68,3 +68,7 @@ npx promptgraph-mcp validate skills/my-skill.md
 ## License
 
 MIT
+
+---
+
+*Built with [Claude](https://claude.com/claude-code) by Anthropic.*
