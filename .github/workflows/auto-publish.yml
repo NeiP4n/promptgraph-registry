@@ -1,0 +1,34 @@
+name: Auto Publish Skill or Bundle
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  process:
+    if: |
+      contains(github.event.issue.labels.*.name, 'skill-submission') ||
+      contains(github.event.issue.labels.*.name, 'bundle-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Process submission
+        id: process
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: node .github/scripts/process-submission.mjs

@@ -1,37 +1,22 @@
 name: Submit a Bundle
-description: Add a curated bundle (set of skills) to the PromptGraph marketplace
+description: Add a curated bundle (set of skills) — validated and published automatically
 title: "Bundle: <your-bundle-name>"
 labels: ["bundle-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Submit a Bundle
+        ## 🤖 Automatic submission
+        Fill out this form → bot validates your bundle → if it passes, it's **immediately published**. No manual review needed.
 
-        A bundle is a curated set of 2+ skills that work well together.
-        All skills in the bundle must already be in the registry.
-
-        Create your bundle definition:
-        ```json
-        {
-          "id": "my-bundle",
-          "name": "My Bundle",
-          "description": "What this bundle does and who it helps (min 15 chars)",
-          "skills": ["skill-id-1", "skill-id-2", "skill-id-3"],
-          "tags": ["engineering", "workflow"]
-        }
-        ```
-
-        Or publish via PromptGraph:
-        ```
-        /pg-publish bundle.json
-        ```
+        All skills in the bundle must already exist in the marketplace.
+        Browse available skills: `pg marketplace`
 
   - type: input
     id: bundle_id
     attributes:
       label: Bundle ID
-      description: "Lowercase, hyphens only (e.g. backend-engineer)"
+      description: "Lowercase, digits, hyphens only. This is what users type: `install bundle <id>`"
       placeholder: my-bundle-name
     validations:
       required: true
@@ -40,7 +25,7 @@ body:
     id: bundle_name
     attributes:
       label: Display name
-      description: Human-readable name shown in marketplace
+      description: Human-readable name shown in the marketplace
       placeholder: "My Bundle Name"
     validations:
       required: true
@@ -49,8 +34,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: What does this bundle do? Who is it for?
-      placeholder: "Complete workflow for X — includes Y, Z, and W."
+      description: What does this bundle cover? Who should use it? (min 15 chars)
+      placeholder: "Complete workflow for backend engineers — debug, refactor, test, and commit with confidence."
     validations:
       required: true
 
@@ -58,7 +43,7 @@ body:
     id: skills
     attributes:
       label: Skill IDs (one per line)
-      description: Must be existing skill IDs from the registry. At least 2 required.
+      description: "Must be existing skill IDs from the registry. At least 2 required. Check available IDs at https://github.com/NeiP4n/promptgraph-registry/blob/master/registry.json"
       placeholder: |
         systematic-debugging
         safe-refactor
@@ -75,21 +60,12 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: rationale
-    attributes:
-      label: Why these skills together?
-      description: Briefly explain why this combination is useful
-      placeholder: "These skills cover the full code quality loop: write tests first, refactor safely, review properly, commit clearly."
-    validations:
-      required: true
-
   - type: checkboxes
     id: checklist
     attributes:
-      label: Checklist
+      label: Pre-flight checklist
       options:
-        - label: All listed skills exist in the registry
+        - label: All listed skills exist in the registry (verified in registry.json)
           required: true
         - label: Bundle has at least 2 skills
           required: true

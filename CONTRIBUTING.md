@@ -1,48 +1,20 @@
 # Contributing to PromptGraph Registry
 
-Anyone can add skills and bundles. There are two ways:
+Submissions are **fully automated** — no manual review needed. The bot validates and publishes instantly.
 
 ---
 
-## Option A — Submit via Issue (easiest)
+## Submit a Skill
 
-### Submit a Skill
-1. Create your skill `.md` file locally
-2. Validate it: `pg validate my-skill.md`
-3. Publish to Gist: `/pg-publish my-skill.md` (in Claude)
-4. [Open a Skill Submission issue](../../issues/new?template=submit-skill.yml) and fill out the form
-
-### Submit a Bundle
-1. Choose 2+ existing skills from the registry
-2. Create a `bundle.json`:
-   ```json
-   {
-     "id": "my-bundle",
-     "name": "My Bundle",
-     "description": "What this bundle does and who it helps",
-     "skills": ["skill-id-1", "skill-id-2"],
-     "tags": ["engineering"]
-   }
-   ```
-3. Publish: `/pg-publish bundle.json` (in Claude) — gives you a pre-filled issue link
-4. [Open a Bundle Submission issue](../../issues/new?template=submit-bundle.yml)
-
----
-
-## Option B — Pull Request (for developers)
-
-### Adding a skill via PR
-
-1. Fork this repository
-2. Add your skill file to `skills/your-skill-name.md`:
+### Step 1 — Create your skill file
 
 ```markdown
 ---
-name: your-skill-name
+name: my-skill-name
 description: One sentence describing what this skill does and when to use it.
 ---
 
-# Your Skill Name
+# My Skill Name
 
 ## When to use
 ...
@@ -51,80 +23,77 @@ description: One sentence describing what this skill does and when to use it.
 ...
 ```
 
-3. Add it to `registry.json` under `skills`:
-```json
-{
-  "id": "your-skill-name",
-  "name": "Your Skill Name",
-  "description": "Same as frontmatter description",
-  "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/your-skill-name.md",
-  "author": "your-github-username",
-  "tags": ["tag1", "tag2"],
-  "stars": 0
-}
+### Step 2 — Validate locally
+
+```bash
+npm install -g promptgraph-mcp
+pg validate my-skill.md
 ```
 
-4. Open a PR — CI validates automatically and posts a comment with results.
+### Step 3 — Publish to a public Gist
 
-### Adding a bundle via PR
-
-Add to `registry.json` under `bundles`:
-```json
-{
-  "id": "your-bundle-id",
-  "name": "Your Bundle Name",
-  "description": "What this bundle covers and who should use it",
-  "skills": ["skill-id-1", "skill-id-2", "skill-id-3"],
-  "author": "your-github-username",
-  "tags": ["engineering"],
-  "stars": 0
-}
+```bash
+# In Claude Code:
+/pg-publish my-skill.md
+# → gives you a Gist URL
 ```
 
-All skills listed must already exist in the registry.
+Or manually create a public Gist at https://gist.github.com
+
+### Step 4 — Submit the issue
+
+[➕ Submit Skill](../../issues/new?template=submit-skill.yml)
+
+Fill out the form with your Gist URL. The bot will:
+- Fetch your skill from the URL
+- Validate it (security scan, format check)
+- Publish it to the marketplace in seconds
+- Post a ✅ comment and close the issue
 
 ---
 
-## Skill format requirements
+## Submit a Bundle
 
-| Field | Rule |
+A bundle is a curated set of 2+ existing skills that work well together.
+
+### Step 1 — Choose skills from the registry
+
+Browse available skills: `pg marketplace` or see [registry.json](registry.json)
+
+### Step 2 — Submit the issue
+
+[➕ Submit Bundle](../../issues/new?template=submit-bundle.yml)
+
+Fill in the bundle ID, name, description, and skill IDs. The bot validates and publishes automatically.
+
+---
+
+## Validation rules (automatic)
+
+### Skills
+| Check | Rule |
 |---|---|
 | `name` | Lowercase, digits, hyphens. 2–64 chars. Must match filename. |
-| `description` | Min 15 characters. One clear sentence. |
-| Body | Min 200 characters. Real actionable instructions. |
+| `description` | Min 15 characters. |
+| Body | Min 200 characters of real instructions. |
 | Security | No `curl \| sh`, `rm -rf`, prompt injection, hardcoded keys. |
 | Size | Max 100 KB. |
 
-Run `pg validate skill.md` locally before submitting.
-
-## Bundle requirements
-
-| Field | Rule |
+### Bundles
+| Check | Rule |
 |---|---|
 | `id` | Lowercase, digits, hyphens. 2–64 chars. |
-| `name` | Min 3 characters. |
 | `description` | Min 15 characters. |
-| `skills` | At least 2 existing skill IDs. |
+| `skills` | At least 2 IDs. All must exist in registry. |
 
 ---
 
-## CI/CD
+## What happens on failure?
 
-Every PR runs `node validate.mjs` automatically. It checks:
-- All skill files pass validation (name, description, security scan)
-- No duplicate skill names
-- `registry.json` is valid JSON with correct structure  
-- All bundles reference existing skill IDs
-- All codes are unique and well-formed (`pg-xxxxxx`)
-
-The bot posts a ✅ or ❌ comment on your PR with details.
+The bot posts an ❌ comment explaining exactly what's wrong. Fix the issues, then **reopen the issue** (don't create a new one) to retry.
 
 ---
 
-## Review process
+## Manual PR (for updates or bulk submissions)
 
-1. CI passes → maintainer reviews content quality
-2. Approved → merged to `main` → immediately available in `pg marketplace`
-3. Rejected → bot explains why with specific issues to fix
-
-Questions? Open a [blank issue](../../issues/new).
+If you want to update an existing skill or add many at once, open a PR directly. CI validates and posts a comment — but updates still need a manual merge.

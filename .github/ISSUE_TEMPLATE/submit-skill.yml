@@ -1,31 +1,26 @@
 name: Submit a Skill
-description: Add your skill to the PromptGraph marketplace
+description: Add your skill to the PromptGraph marketplace — validated and published automatically
 title: "Skill: <your-skill-name>"
 labels: ["skill-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Submit a Skill
+        ## 🤖 Automatic submission
+        Fill out this form → bot validates your skill → if it passes, it's **immediately published** to the marketplace. No manual review needed.
 
-        Create your skill file first:
+        **Prepare your skill first:**
         ```bash
-        # Install PromptGraph
         npm install -g promptgraph-mcp
-
-        # Validate your skill locally
-        pg validate my-skill.md
-
-        # Publish (creates Gist + registry issue link)
-        /pg-publish my-skill.md
+        pg validate my-skill.md        # validate locally
+        /pg-publish my-skill.md        # publish to Gist (in Claude)
         ```
-        Then fill out this form.
 
   - type: input
     id: skill_name
     attributes:
       label: Skill name
-      description: "Lowercase, hyphens only (e.g. systematic-debugging)"
+      description: "Must match the `name` field in your skill's frontmatter. Lowercase, hyphens only."
       placeholder: my-skill-name
     validations:
       required: true
@@ -34,7 +29,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: One sentence — what does this skill do and when should someone use it?
+      description: One sentence — what does this skill do and when should someone use it? (min 15 chars)
       placeholder: "Helps you X when Y by doing Z."
     validations:
       required: true
@@ -43,8 +38,8 @@ body:
     id: gist_url
     attributes:
       label: Gist URL (or raw GitHub URL)
-      description: "Public Gist or raw.githubusercontent.com URL to your skill .md file"
-      placeholder: "https://gist.github.com/yourname/abc123 or https://raw.githubusercontent.com/..."
+      description: "Public Gist URL or raw.githubusercontent.com URL to your .md skill file"
+      placeholder: "https://gist.github.com/yourname/abc123"
     validations:
       required: true
 
@@ -52,7 +47,7 @@ body:
     id: tags
     attributes:
       label: Tags (comma-separated)
-      description: "3-6 tags from: engineering, debugging, testing, security, product, planning, research, productivity, ai, workflow, documentation, git, refactoring, architecture, api"
+      description: "3-6 tags, e.g.: engineering, debugging, testing, security, product, planning, research, productivity, ai, workflow, documentation, git, architecture, api"
       placeholder: "engineering, debugging, workflow"
     validations:
       required: true
@@ -60,15 +55,15 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Checklist
+      label: Pre-flight checklist
       options:
-        - label: My skill has `name` and `description` in frontmatter
+        - label: My skill has `name` and `description` in frontmatter (lowercase-hyphens name)
           required: true
-        - label: The skill body is at least 200 characters of real instructions
+        - label: The skill body has at least 200 characters of real instructions
           required: true
         - label: No dangerous patterns (curl|sh, rm -rf, prompt injection, hardcoded keys)
           required: true
-        - label: I ran `pg validate my-skill.md` and it passed
+        - label: I ran `pg validate my-skill.md` locally and it passed
           required: true
-        - label: The Gist/URL is publicly accessible
+        - label: The Gist/URL is **publicly accessible** (anyone can open it)
           required: true
