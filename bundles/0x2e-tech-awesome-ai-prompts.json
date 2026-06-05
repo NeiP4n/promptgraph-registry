@@ -1,0 +1,16 @@
+{
+  "id": "0x2e-tech-awesome-ai-prompts",
+  "name": "Awesome AI Prompts",
+  "repo_url": "0x2e-Tech/awesome-ai-prompts",
+  "author": "0x2e-Tech",
+  "description": "A curated list of 500+ powerful LLM prompts for ChatGPT, Claude, Gemini, and more — organized by category. Clean, actionable, field-tested prompt library.",
+  "tags": [
+    "prompts",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "llm",
+    "curated"
+  ],
+  "stars": 0
+}

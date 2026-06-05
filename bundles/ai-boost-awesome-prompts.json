@@ -1,0 +1,16 @@
+{
+  "id": "ai-boost-awesome-prompts",
+  "name": "Awesome Prompts (AI-Boost)",
+  "repo_url": "ai-boost/awesome-prompts",
+  "author": "ai-boost",
+  "description": "Curated list of ChatGPT prompts from top-rated GPTs in the GPTs Store. Prompt engineering, prompt attack, prompt protect. Advanced prompt engineering papers and frameworks. 290+ files.",
+  "tags": [
+    "prompts",
+    "chatgpt",
+    "prompt-engineering",
+    "gpts",
+    "security",
+    "papers"
+  ],
+  "stars": 0
+}

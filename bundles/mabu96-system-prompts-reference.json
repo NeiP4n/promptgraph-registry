@@ -1,0 +1,17 @@
+{
+  "id": "mabu96-system-prompts-reference",
+  "name": "System Prompts Reference",
+  "repo_url": "mabu96/system-prompts-reference",
+  "author": "mabu96",
+  "description": "Curated collection of system prompts from 35+ AI products (Claude, GPT, Gemini, Grok, Cursor, Devin, v0, etc.) organized by category for reference and prompt engineering research. 195+ files.",
+  "tags": [
+    "system-prompts",
+    "reference",
+    "prompt-engineering",
+    "claude",
+    "gpt",
+    "gemini",
+    "cursor"
+  ],
+  "stars": 0
+}

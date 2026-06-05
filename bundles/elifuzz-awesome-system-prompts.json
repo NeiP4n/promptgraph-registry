@@ -1,0 +1,17 @@
+{
+  "id": "elifuzz-awesome-system-prompts",
+  "name": "Awesome System Prompts",
+  "repo_url": "EliFuzz/awesome-system-prompts",
+  "author": "EliFuzz",
+  "description": "Comprehensive collection of system prompts and tool definitions from AI coding agents: Augment Code, Claude Code, Cursor, Devin AI, Gemini, Codex, OpenAI, and more. 469+ files.",
+  "tags": [
+    "system-prompts",
+    "ai-agents",
+    "cursor",
+    "claude-code",
+    "devin",
+    "gemini",
+    "awesome"
+  ],
+  "stars": 0
+}

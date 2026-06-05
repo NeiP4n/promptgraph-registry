@@ -1,0 +1,16 @@
+{
+  "id": "langgptai-awesome-system-prompts",
+  "name": "Awesome System Prompts (LangGPT)",
+  "repo_url": "langgptai/awesome-system-prompts",
+  "author": "langgptai",
+  "description": "A curated collection of system prompts for LLMs, AI Tools, and AI Products including DeepSeek, ChatGPT, Gemini, Grok, Qwen, and more. 21 files.",
+  "tags": [
+    "system-prompts",
+    "llm",
+    "ai-tools",
+    "deepseek",
+    "chatgpt",
+    "gemini"
+  ],
+  "stars": 0
+}

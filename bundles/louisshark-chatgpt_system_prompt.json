@@ -1,0 +1,15 @@
+{
+  "id": "louisshark-chatgpt_system_prompt",
+  "name": "ChatGPT System Prompt",
+  "repo_url": "LouisShark/chatgpt_system_prompt",
+  "author": "LouisShark",
+  "description": "A massive collection of GPT system prompts, prompt injection/leaking knowledge, and custom GPT instructions. 10k+ stars, 1400+ files.",
+  "tags": [
+    "chatgpt",
+    "system-prompts",
+    "prompt-engineering",
+    "gpt",
+    "injection"
+  ],
+  "stars": 0
+}

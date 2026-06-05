@@ -1,0 +1,15 @@
+{
+  "id": "piebald-ai-claude-code-system-prompts",
+  "name": "Claude Code System Prompts",
+  "repo_url": "Piebald-AI/claude-code-system-prompts",
+  "author": "Piebald-AI",
+  "description": "All parts of Claude Code system prompt: 18 builtin tool descriptions, sub-agent prompts (Plan/Explore/Task), utility prompts. Updated for each Claude Code version. 6.9k+ stars.",
+  "tags": [
+    "claude-code",
+    "system-prompts",
+    "anthropic",
+    "prompts",
+    "developer-tools"
+  ],
+  "stars": 0
+}

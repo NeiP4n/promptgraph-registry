@@ -1,0 +1,15 @@
+{
+  "id": "neverbiasu-awesome-gemini-prompts",
+  "name": "Awesome Gemini Prompts",
+  "repo_url": "neverbiasu/awesome-gemini-prompts",
+  "author": "neverbiasu",
+  "description": "The largest open-source collection of 1100+ high-quality, hand-picked, AI-cleaned prompts for Google Gemini. Features one-click run in Google AI Studio.",
+  "tags": [
+    "gemini",
+    "prompts",
+    "google-ai",
+    "ai-studio",
+    "prompt-engineering"
+  ],
+  "stars": 0
+}

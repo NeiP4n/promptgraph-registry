@@ -216,6 +216,182 @@
       "stars": 0,
       "repo_url": "mukul975/Anthropic-Cybersecurity-Skills",
       "skillCount": 2093
+    },
+    {
+      "id": "asgeirtj-system_prompts_leaks",
+      "name": "System Prompts Leaks",
+      "repo_url": "asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "description": "Extracted system prompts from ChatGPT (GPT-5.5), Claude (Opus 4.8), Gemini (3.5 Flash), Grok (4.3), and 20+ more. Updated regularly with new models. 40k+ stars.",
+      "tags": [
+        "system-prompts",
+        "leaks",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok",
+        "transparency"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "elder-plinius-cl4r1t4s",
+      "name": "CL4R1T4S",
+      "repo_url": "elder-plinius/CL4R1T4S",
+      "author": "elder-plinius",
+      "description": "LEAKED system prompts for ChatGPT, Gemini, Grok, Claude, Perplexity, Cursor, Devin, Replit, and more — AI systems transparency for all! 13.9k+ stars.",
+      "tags": [
+        "system-prompts",
+        "leaks",
+        "transparency",
+        "chatgpt",
+        "claude",
+        "gemini"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "piebald-ai-claude-code-system-prompts",
+      "name": "Claude Code System Prompts",
+      "repo_url": "Piebald-AI/claude-code-system-prompts",
+      "author": "Piebald-AI",
+      "description": "All parts of Claude Code system prompt: 18 builtin tool descriptions, sub-agent prompts (Plan/Explore/Task), utility prompts. Updated for each Claude Code version. 6.9k+ stars.",
+      "tags": [
+        "claude-code",
+        "system-prompts",
+        "anthropic",
+        "prompts",
+        "developer-tools"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "louisshark-chatgpt_system_prompt",
+      "name": "ChatGPT System Prompt",
+      "repo_url": "LouisShark/chatgpt_system_prompt",
+      "author": "LouisShark",
+      "description": "A massive collection of GPT system prompts, prompt injection/leaking knowledge, and custom GPT instructions. 10k+ stars, 1400+ files.",
+      "tags": [
+        "chatgpt",
+        "system-prompts",
+        "prompt-engineering",
+        "gpt",
+        "injection"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "elifuzz-awesome-system-prompts",
+      "name": "Awesome System Prompts",
+      "repo_url": "EliFuzz/awesome-system-prompts",
+      "author": "EliFuzz",
+      "description": "Comprehensive collection of system prompts and tool definitions from AI coding agents: Augment Code, Claude Code, Cursor, Devin AI, Gemini, Codex, OpenAI, and more. 469+ files.",
+      "tags": [
+        "system-prompts",
+        "ai-agents",
+        "cursor",
+        "claude-code",
+        "devin",
+        "gemini",
+        "awesome"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "piyushrajyadav-awesome-ai-dev-prompts",
+      "name": "Awesome AI Dev Prompts",
+      "repo_url": "piyushrajyadav/awesome-ai-dev-prompts",
+      "author": "piyushrajyadav",
+      "description": "76 production-grade system prompts for AI coding tools: frontend, backend, full-stack, database, AI/ML, security, performance, architecture, mobile, and DevOps.",
+      "tags": [
+        "coding",
+        "prompts",
+        "developer",
+        "engineering",
+        "ai-tools",
+        "full-stack"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "mabu96-system-prompts-reference",
+      "name": "System Prompts Reference",
+      "repo_url": "mabu96/system-prompts-reference",
+      "author": "mabu96",
+      "description": "Curated collection of system prompts from 35+ AI products (Claude, GPT, Gemini, Grok, Cursor, Devin, v0, etc.) organized by category for reference and prompt engineering research. 195+ files.",
+      "tags": [
+        "system-prompts",
+        "reference",
+        "prompt-engineering",
+        "claude",
+        "gpt",
+        "gemini",
+        "cursor"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "ai-boost-awesome-prompts",
+      "name": "Awesome Prompts (AI-Boost)",
+      "repo_url": "ai-boost/awesome-prompts",
+      "author": "ai-boost",
+      "description": "Curated list of ChatGPT prompts from top-rated GPTs in the GPTs Store. Prompt engineering, prompt attack, prompt protect. Advanced prompt engineering papers and frameworks. 290+ files.",
+      "tags": [
+        "prompts",
+        "chatgpt",
+        "prompt-engineering",
+        "gpts",
+        "security",
+        "papers"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "langgptai-awesome-system-prompts",
+      "name": "Awesome System Prompts (LangGPT)",
+      "repo_url": "langgptai/awesome-system-prompts",
+      "author": "langgptai",
+      "description": "A curated collection of system prompts for LLMs, AI Tools, and AI Products including DeepSeek, ChatGPT, Gemini, Grok, Qwen, and more. 21 files.",
+      "tags": [
+        "system-prompts",
+        "llm",
+        "ai-tools",
+        "deepseek",
+        "chatgpt",
+        "gemini"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "neverbiasu-awesome-gemini-prompts",
+      "name": "Awesome Gemini Prompts",
+      "repo_url": "neverbiasu/awesome-gemini-prompts",
+      "author": "neverbiasu",
+      "description": "The largest open-source collection of 1100+ high-quality, hand-picked, AI-cleaned prompts for Google Gemini. Features one-click run in Google AI Studio.",
+      "tags": [
+        "gemini",
+        "prompts",
+        "google-ai",
+        "ai-studio",
+        "prompt-engineering"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "0x2e-tech-awesome-ai-prompts",
+      "name": "Awesome AI Prompts",
+      "repo_url": "0x2e-Tech/awesome-ai-prompts",
+      "author": "0x2e-Tech",
+      "description": "A curated list of 500+ powerful LLM prompts for ChatGPT, Claude, Gemini, and more — organized by category. Clean, actionable, field-tested prompt library.",
+      "tags": [
+        "prompts",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "llm",
+        "curated"
+      ],
+      "stars": 0
     }
   ]
 }

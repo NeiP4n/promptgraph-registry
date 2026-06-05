@@ -1,0 +1,17 @@
+{
+  "id": "asgeirtj-system_prompts_leaks",
+  "name": "System Prompts Leaks",
+  "repo_url": "asgeirtj/system_prompts_leaks",
+  "author": "asgeirtj",
+  "description": "Extracted system prompts from ChatGPT (GPT-5.5), Claude (Opus 4.8), Gemini (3.5 Flash), Grok (4.3), and 20+ more. Updated regularly with new models. 40k+ stars.",
+  "tags": [
+    "system-prompts",
+    "leaks",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "grok",
+    "transparency"
+  ],
+  "stars": 0
+}
