@@ -8,7 +8,11 @@
       "description": "Debug any bug methodically instead of guessing: reproduce, isolate, hypothesize, verify, fix, confirm.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/systematic-debugging.md",
       "author": "NeiP4n",
-      "tags": ["debugging", "engineering", "workflow"],
+      "tags": [
+        "debugging",
+        "engineering",
+        "workflow"
+      ],
       "stars": 0
     },
     {
@@ -17,7 +21,11 @@
       "description": "Write clear, conventional git commit messages that explain what changed and why.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/commit-message.md",
       "author": "NeiP4n",
-      "tags": ["git", "workflow", "documentation"],
+      "tags": [
+        "git",
+        "workflow",
+        "documentation"
+      ],
       "stars": 0
     },
     {
@@ -26,7 +34,11 @@
       "description": "Refactor code without breaking it: tests-first, small behavior-preserving steps, commit after each move.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/safe-refactor.md",
       "author": "NeiP4n",
-      "tags": ["refactoring", "engineering", "workflow"],
+      "tags": [
+        "refactoring",
+        "engineering",
+        "workflow"
+      ],
       "stars": 0
     },
     {
@@ -35,115 +47,11 @@
       "description": "Review a pull request thoroughly and constructively: correctness, security, tests, readability, kind feedback.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/pr-review.md",
       "author": "NeiP4n",
-      "tags": ["code-review", "engineering", "collaboration"],
-      "stars": 0
-    },
-    {
-      "id": "deep-research",
-      "name": "Deep Research",
-      "description": "Conduct comprehensive research on any topic — clarifying questions, structured web search, synthesis with confidence markers and sources.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/deep-research.md",
-      "author": "NeiP4n",
-      "tags": ["research", "analysis", "web-search"],
-      "stars": 0
-    },
-    {
-      "id": "tdd-workflow",
-      "name": "TDD Workflow",
-      "description": "Write tests first, then code. Red → Green → Refactor loop with naming conventions, AAA structure, and coverage targets.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/tdd-workflow.md",
-      "author": "NeiP4n",
-      "tags": ["testing", "tdd", "engineering", "quality"],
-      "stars": 0
-    },
-    {
-      "id": "prompt-architect",
-      "name": "Prompt Architect",
-      "description": "Design clear, testable prompts for AI agents. Build sequence, quality checklist, anti-patterns, and iteration loop.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/prompt-architect.md",
-      "author": "NeiP4n",
-      "tags": ["prompt-engineering", "ai", "agents"],
-      "stars": 0
-    },
-    {
-      "id": "product-spec",
-      "name": "Product Spec (PRD)",
-      "description": "Write a complete product requirements document from a rough idea — problem, goals, user stories, requirements, metrics, open questions.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/product-spec.md",
-      "author": "NeiP4n",
-      "tags": ["product", "planning", "prd", "requirements"],
-      "stars": 0
-    },
-    {
-      "id": "meeting-notes",
-      "name": "Meeting Notes",
-      "description": "Turn raw meeting transcripts into structured minutes with decisions, action items, owners, and parking lot. Works for standup, retro, 1:1, planning.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/meeting-notes.md",
-      "author": "NeiP4n",
-      "tags": ["productivity", "meetings", "documentation", "async"],
-      "stars": 0
-    },
-    {
-      "id": "code-review",
-      "name": "Code Review",
-      "description": "Review a diff for correctness, security, performance, and maintainability. Returns prioritized findings (P0–P2) with suggested fixes.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/code-review.md",
-      "author": "NeiP4n",
-      "tags": ["code-review", "engineering", "security", "quality"],
-      "stars": 0
-    },
-    {
-      "id": "security-audit",
-      "name": "Security Audit",
-      "description": "Security-focused code audit: OWASP Top 10, injection, auth flaws, secrets, dependency CVEs. Returns CVSS-style severity findings.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/security-audit.md",
-      "author": "NeiP4n",
-      "tags": ["security", "audit", "owasp", "engineering"],
-      "stars": 0
-    },
-    {
-      "id": "architecture-design",
-      "name": "Architecture Design",
-      "description": "Design system architecture from requirements — component diagram, data flow, ADRs, failure modes, tradeoffs.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/architecture-design.md",
-      "author": "NeiP4n",
-      "tags": ["architecture", "engineering", "design", "adr"],
-      "stars": 0
-    },
-    {
-      "id": "growth-experiment",
-      "name": "Growth Experiment",
-      "description": "Design and analyze A/B tests and growth experiments — hypothesis format, sample size, statistical significance, decision framework.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/growth-experiment.md",
-      "author": "NeiP4n",
-      "tags": ["growth", "product", "ab-testing", "analytics"],
-      "stars": 0
-    },
-    {
-      "id": "api-design",
-      "name": "API Design",
-      "description": "Design REST or GraphQL APIs — resource naming, HTTP methods, error formats, versioning, auth patterns, documentation checklist.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/api-design.md",
-      "author": "NeiP4n",
-      "tags": ["api", "rest", "graphql", "engineering", "design"],
-      "stars": 0
-    },
-    {
-      "id": "decision-log",
-      "name": "Decision Log (ADR)",
-      "description": "Record an architectural, product, or business decision as an ADR with context, options, rationale, and review triggers.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/decision-log.md",
-      "author": "NeiP4n",
-      "tags": ["documentation", "architecture", "decision", "adr"],
-      "stars": 0
-    },
-    {
-      "id": "user-story",
-      "name": "User Story",
-      "description": "Write well-formed user stories with acceptance criteria (Given-When-Then), story points, INVEST checklist, and splitting strategies.",
-      "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/user-story.md",
-      "author": "NeiP4n",
-      "tags": ["agile", "product", "planning", "sprint"],
+      "tags": [
+        "code-review",
+        "engineering",
+        "collaboration"
+      ],
       "stars": 0
     }
   ],
@@ -151,64 +59,125 @@
     {
       "id": "engineering-essentials",
       "name": "Engineering Essentials",
-      "description": "The core day-to-day developer workflow: debug, refactor, review, commit, and test like a pro.",
-      "skills": ["systematic-debugging", "safe-refactor", "tdd-workflow", "code-review", "commit-message"],
+      "description": "The core day-to-day developer workflow: debug, refactor, review, and commit like a pro.",
+      "skills": [
+        "systematic-debugging",
+        "safe-refactor",
+        "pr-review",
+        "commit-message"
+      ],
       "author": "NeiP4n",
-      "tags": ["engineering", "workflow", "starter"],
+      "tags": [
+        "engineering",
+        "workflow",
+        "starter"
+      ],
       "stars": 0
     },
     {
-      "id": "security-pack",
-      "name": "Security Pack",
-      "description": "Full security coverage: audit code for vulnerabilities, review PRs with security lens, design secure APIs.",
-      "skills": ["security-audit", "code-review", "api-design"],
+      "id": "code-quality",
+      "name": "Code Quality Pack",
+      "description": "Keep a codebase healthy: thorough reviews, safe refactors, and clear commit history.",
+      "skills": [
+        "pr-review",
+        "safe-refactor",
+        "commit-message"
+      ],
       "author": "NeiP4n",
-      "tags": ["security", "owasp", "engineering"],
+      "tags": [
+        "quality",
+        "code-review",
+        "refactoring"
+      ],
       "stars": 0
     },
     {
-      "id": "product-builder",
-      "name": "Product Builder",
-      "description": "Build products right: from idea to spec to user stories to experiment. The full product development loop.",
-      "skills": ["product-spec", "user-story", "growth-experiment", "decision-log"],
-      "author": "NeiP4n",
-      "tags": ["product", "planning", "agile", "growth"],
+      "id": "awesome-ai-system-prompts",
+      "name": "Awesome AI System Prompts",
+      "description": "Curated collection of production system prompts from top AI tools like v0, Manus, Claude Code, Cursor, Devin, Lovable, Windsurf, and more. ~50 prompts.",
+      "repo_url": "dontriskit/awesome-ai-system-prompts",
+      "author": "dontriskit",
+      "tags": [
+        "system-prompts",
+        "ai-agents",
+        "prompt-engineering",
+        "production"
+      ],
       "stars": 0
     },
     {
-      "id": "research-analyst",
-      "name": "Research Analyst",
-      "description": "Research anything deeply and record decisions clearly: deep web research with synthesis plus structured ADRs.",
-      "skills": ["deep-research", "decision-log"],
-      "author": "NeiP4n",
-      "tags": ["research", "analysis", "documentation"],
+      "id": "llm-prompts-hailingu",
+      "name": "LLM Prompts (hailingu)",
+      "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
+      "repo_url": "hailingu/llm-prompts",
+      "author": "hailingu",
+      "tags": [
+        "coding",
+        "gpt-prompts",
+        "role-based",
+        "software-engineering",
+        "data-science"
+      ],
       "stars": 0
     },
     {
-      "id": "system-architect",
-      "name": "System Architect",
-      "description": "Design systems properly: architecture diagrams, API contracts, decision records, and security modeling.",
-      "skills": ["architecture-design", "api-design", "decision-log", "security-audit"],
-      "author": "NeiP4n",
-      "tags": ["architecture", "engineering", "design"],
+      "id": "smptdenis-prompts",
+      "name": "SmetDenis Prompts",
+      "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
+      "repo_url": "SmetDenis/Prompts",
+      "author": "SmetDenis",
+      "tags": [
+        "prompts",
+        "chatgpt",
+        "russian",
+        "code-review",
+        "gpt-5"
+      ],
       "stars": 0
     },
     {
-      "id": "async-team",
-      "name": "Async Team Pack",
-      "description": "Work effectively across time zones: structured meeting notes, clear user stories, and decision logs everyone can read later.",
-      "skills": ["meeting-notes", "user-story", "decision-log", "commit-message"],
-      "author": "NeiP4n",
-      "tags": ["productivity", "async", "documentation", "collaboration"],
+      "id": "prompts-for-everything",
+      "name": "Prompts for Everything",
+      "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
+      "repo_url": "mlnjsh/prompts-for-everything",
+      "author": "mlnjsh",
+      "tags": [
+        "image-generation",
+        "video",
+        "music",
+        "creative",
+        "writing",
+        "coding"
+      ],
       "stars": 0
     },
     {
-      "id": "ai-engineering",
-      "name": "AI Engineering",
-      "description": "Build reliable AI systems: design prompts that work, audit outputs, run research-grade experiments.",
-      "skills": ["prompt-architect", "deep-research", "growth-experiment"],
-      "author": "NeiP4n",
-      "tags": ["ai", "prompt-engineering", "agents", "research"],
+      "id": "ai-system-prompts-models-tools",
+      "name": "AI System Prompts & Models Tools",
+      "description": "Massive archive of real system prompts from 30+ AI coding assistants and tools: Cursor, Claude Code, v0, Devin, Windsurf, Manus, Lovable, Replit, Cline, Bolt, Trae, Perplexity, and more. 138k+ stars.",
+      "repo_url": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "author": "x1xhlol",
+      "tags": [
+        "system-prompts",
+        "ai-agents",
+        "cursor",
+        "claude-code",
+        "v0",
+        "devin",
+        "windsurf",
+        "prompt-engineering"
+      ],
+      "stars": 0
+    },
+    {
+      "id": "thepersonalaidev-awesome-cursor-templates",
+      "name": "Awesome Cursor Templates",
+      "repo_url": "thepersonalaidev/awesome-cursor-templates",
+      "author": "thepersonalaidev",
+      "description": "Skills from thepersonalaidev/awesome-cursor-templates",
+      "tags": [
+        "community"
+      ],
       "stars": 0
     }
   ]
