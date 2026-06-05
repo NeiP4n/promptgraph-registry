@@ -1,20 +1,58 @@
-name: Validate Skills
+name: Validate Skills & Bundles
 
 on:
   pull_request:
-    paths:
-      - 'skills/**'
-      - 'registry.json'
+    branches: [master, main]
   push:
-    branches: [main]
+    branches: [master, main]
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      - run: npm install gray-matter
-      - run: node validate.mjs
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run validator
+        id: validate
+        run: |
+          output=$(node validate.mjs 2>&1) && status=0 || status=1
+          echo "output<<EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "status=$status" >> $GITHUB_OUTPUT
+          exit $status
+
+      - name: Post PR comment on failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = `${{ steps.validate.outputs.output }}`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ❌ Validation failed\n\n\`\`\`\n${output}\n\`\`\`\n\nSee [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) for skill format requirements.`
+            });
+
+      - name: Post PR comment on success
+        if: success() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ✅ Validation passed\n\nAll skills and bundles look good! A maintainer will review and merge.`
+            });
