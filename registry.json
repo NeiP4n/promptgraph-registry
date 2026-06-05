@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-04",
+  "updated": "2026-06-05",
   "skills": [
     {
       "id": "systematic-debugging",
@@ -56,6 +56,42 @@
       "skills": ["pr-review", "safe-refactor", "commit-message"],
       "author": "NeiP4n",
       "tags": ["quality", "code-review", "refactoring"],
+      "stars": 0
+    },
+    {
+      "id": "awesome-ai-system-prompts",
+      "name": "Awesome AI System Prompts",
+      "description": "Curated collection of production system prompts from top AI tools like v0, Manus, Claude Code, Cursor, Devin, Lovable, Windsurf, and more. ~50 prompts.",
+      "repo_url": "dontriskit/awesome-ai-system-prompts",
+      "author": "dontriskit",
+      "tags": ["system-prompts", "ai-agents", "prompt-engineering", "production"],
+      "stars": 0
+    },
+    {
+      "id": "llm-prompts-hailingu",
+      "name": "LLM Prompts (hailingu)",
+      "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
+      "repo_url": "hailingu/llm-prompts",
+      "author": "hailingu",
+      "tags": ["coding", "gpt-prompts", "role-based", "software-engineering", "data-science"],
+      "stars": 0
+    },
+    {
+      "id": "smptdenis-prompts",
+      "name": "SmetDenis Prompts",
+      "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
+      "repo_url": "SmetDenis/Prompts",
+      "author": "SmetDenis",
+      "tags": ["prompts", "chatgpt", "russian", "code-review", "gpt-5"],
+      "stars": 0
+    },
+    {
+      "id": "prompts-for-everything",
+      "name": "Prompts for Everything",
+      "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
+      "repo_url": "mlnjsh/prompts-for-everything",
+      "author": "mlnjsh",
+      "tags": ["image-generation", "video", "music", "creative", "writing", "coding"],
       "stars": 0
     }
   ]

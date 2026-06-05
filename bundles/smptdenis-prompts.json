@@ -1,0 +1,13 @@
+{
+  "id": "smptdenis-prompts",
+  "name": "SmetDenis Prompts",
+  "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
+  "repo_url": "SmetDenis/Prompts",
+  "tags": [
+    "prompts",
+    "chatgpt",
+    "russian",
+    "code-review",
+    "gpt-5"
+  ]
+}
