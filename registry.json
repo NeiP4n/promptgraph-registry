@@ -133,11 +133,10 @@
     {
       "id": "mukul975-anthropic-cybersecurity-skills",
       "name": "Anthropic Cybersecurity Skills",
-      "description": "Skills from mukul975/Anthropic-Cybersecurity-Skills",
-      "author": "NeiP4n",
-      "tags": [
-        "community"
-      ],
+      "description": "A curated set of cybersecurity-focused Claude skills: threat modeling, penetration testing, secure code review, incident response, and vulnerability assessment.",
+      "author": "mukul975",
+      "category": "Security",
+      "tags": ["security", "cybersecurity", "penetration-testing", "threat-modeling", "community"],
       "stars": 0,
       "repo_url": "mukul975/Anthropic-Cybersecurity-Skills"
     }
