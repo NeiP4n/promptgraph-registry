@@ -1,0 +1,16 @@
+{
+  "id": "ai-system-prompts-models-tools",
+  "name": "AI System Prompts & Models Tools",
+  "description": "Massive archive of real system prompts from 30+ AI coding assistants and tools: Cursor, Claude Code, v0, Devin, Windsurf, Manus, Lovable, Replit, Cline, Bolt, Trae, Perplexity, and more. 138k+ stars.",
+  "repo_url": "x1xhlol/system-prompts-and-models-of-ai-tools",
+  "tags": [
+    "system-prompts",
+    "ai-agents",
+    "cursor",
+    "claude-code",
+    "v0",
+    "devin",
+    "windsurf",
+    "prompt-engineering"
+  ]
+}
