@@ -77,10 +77,8 @@ function gistToRaw(url) {
 }
 
 function codeFor(id) {
-  const { createHash } = await import('crypto');
-  // synchronous md5
-  const { createHash: ch } = createRequire(import.meta.url)('crypto');
-  return 'pg-' + ch('md5').update(String(id)).digest('hex').slice(0, 6);
+  const { createHash } = createRequire(import.meta.url)('crypto');
+  return 'pg-' + createHash('md5').update(String(id)).digest('hex').slice(0, 6);
 }
 
 // ── Validators ────────────────────────────────────────────────────────────────
