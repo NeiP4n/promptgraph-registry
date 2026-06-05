@@ -196,15 +196,36 @@ async function processSkill(registry) {
 }
 
 async function processBundle(registry) {
-  const bundleIdField = parseField('Bundle ID', ISSUE_BODY);
-  const bundleName    = parseField('Display name', ISSUE_BODY);
-  const description   = parseField('Description', ISSUE_BODY);
-  const skillsRaw     = parseField('Skill IDs (one per line)', ISSUE_BODY);
-  const tags          = parseField('Tags (comma-separated)', ISSUE_BODY)
-    .split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
-  const skills        = skillsRaw.split('\n').map(s => s.trim()).filter(Boolean);
+  let def;
 
-  const def = { id: bundleIdField, name: bundleName, description, skills, tags };
+  // Format A: simple "Gist: <url>" body (from `pg bundle add-repo`)
+  const gistMatch = ISSUE_BODY.match(/Gist:\s*(https?:\/\/\S+)/i);
+  if (gistMatch) {
+    const rawUrl = gistToRaw(gistMatch[1].trim());
+    let content;
+    try { content = await fetch(rawUrl); }
+    catch (e) {
+      await postComment(`❌ **Could not fetch Gist.**\n\nURL: \`${rawUrl}\`\nError: ${e.message}\n\nMake sure the Gist is **public**.`);
+      return;
+    }
+    try { def = JSON.parse(content); }
+    catch (e) {
+      await postComment(`❌ **Gist does not contain valid JSON.**\n\nError: ${e.message}\n\nThe Gist should be a bundle definition JSON file.`);
+      return;
+    }
+  } else {
+    // Format B: GitHub issue form with ### fields
+    const bundleIdField = parseField('Bundle ID', ISSUE_BODY);
+    const bundleName    = parseField('Display name', ISSUE_BODY);
+    const description   = parseField('Description', ISSUE_BODY);
+    const skillsRaw     = parseField('Skill IDs (one per line)', ISSUE_BODY);
+    const tags          = parseField('Tags (comma-separated)', ISSUE_BODY)
+      .split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
+    const skills        = skillsRaw.split('\n').map(s => s.trim()).filter(Boolean);
+    def = { id: bundleIdField, name: bundleName, description, skills, tags };
+  }
+
+  if (!def.tags) def.tags = [];
   const errors = validateBundleDef(def);
 
   // Check all skills exist
