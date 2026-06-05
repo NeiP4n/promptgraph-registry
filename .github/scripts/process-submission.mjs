@@ -226,9 +226,10 @@ async function processBundle(registry) {
   if (!def.tags) def.tags = [];
   const errors = validateBundleDef(def);
 
-  // Check all skills exist
+  // Check all skills exist (only for skill-list bundles, not repo_url bundles)
   const registrySkillIds = new Set(registry.skills.map(s => s.id));
-  const missing = skills.filter(s => !registrySkillIds.has(s));
+  const bundleSkills = def.skills || [];
+  const missing = bundleSkills.filter(s => !registrySkillIds.has(s));
   if (missing.length) errors.push(`These skill IDs don't exist in the registry: ${missing.join(', ')}`);
 
   if (errors.length) {
@@ -253,8 +254,8 @@ async function processBundle(registry) {
   execSync(`git commit -m "feat(registry): add bundle '${def.id}' from @${ISSUE_USER} (#${ISSUE_NUMBER})"`);
   execSync('git push');
 
-  const skillList = skills.map(s => `\`${s}\``).join(', ');
-  await postComment(`✅ **Bundle \`${def.id}\` has been added to the marketplace!**\n\nIncludes: ${skillList}\n\nUsers can install it:\n\`\`\`\ninstall bundle ${def.id}\n\`\`\`\n\nThanks @${ISSUE_USER}! 🎉`);
+  const skillList = bundleSkills.length ? bundleSkills.map(s => `\`${s}\``).join(', ') : (def.repo_url || '');
+  await postComment(`✅ **Bundle \`${def.id}\` has been added to the marketplace!**\n\n${skillList ? `Includes: ${skillList}\n\n` : ''}Users can install it:\n\`\`\`\ninstall bundle ${def.id}\n\`\`\`\n\nThanks @${ISSUE_USER}! 🎉`);
   await closeIssue();
 }
 
