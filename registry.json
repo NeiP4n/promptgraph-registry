@@ -524,6 +524,354 @@
       ],
       "stars": 0,
       "skillCount": 19
+    },
+    {
+      "id": "leaked-system-prompts",
+      "name": "Leaked System Prompts",
+      "repo_url": "jujumilk3/leaked-system-prompts",
+      "author": "jujumilk3",
+      "description": "Collection of leaked system prompts from widely used LLM-based services. 122+ files covering ChatGPT, Claude, Gemini, Grok, and more. 14.6k+ stars.",
+      "tags": [
+        "system-prompts",
+        "leaks",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "grok",
+        "transparency"
+      ],
+      "stars": 0,
+      "skillCount": 122
+    },
+    {
+      "id": "the-big-prompt-library",
+      "name": "The Big Prompt Library",
+      "repo_url": "0xeb/TheBigPromptLibrary",
+      "author": "0xeb",
+      "description": "Massive collection of system prompts, custom instructions, jailbreak prompts, and GPT protections for ChatGPT, Microsoft Copilot, Claude, Gemini, and more. 2000+ files. 5.1k+ stars.",
+      "tags": [
+        "system-prompts",
+        "prompts",
+        "jailbreak",
+        "security",
+        "chatgpt",
+        "claude",
+        "gemini"
+      ],
+      "stars": 0,
+      "skillCount": 2017
+    },
+    {
+      "id": "agency-agents",
+      "name": "The Agency - AI Agents",
+      "repo_url": "msitarzewski/agency-agents",
+      "author": "msitarzewski",
+      "description": "A complete AI agency at your fingertips — 209 specialized agent personalities across 15 divisions. Native Claude Code, Copilot, Cursor, Windsurf, Aider, OpenCode, and Gemini CLI support. 107k+ stars.",
+      "tags": [
+        "agents",
+        "ai-agents",
+        "claude-code",
+        "copilot",
+        "cursor",
+        "windsurf",
+        "opencode",
+        "gemini"
+      ],
+      "stars": 0,
+      "skillCount": 257
+    },
+    {
+      "id": "awesome-gpt-image-2-prompts-evolink",
+      "name": "Awesome GPT Image 2 Prompts (EvoLinkAI)",
+      "repo_url": "EvoLinkAI/awesome-gpt-image-2-prompts",
+      "author": "EvoLinkAI",
+      "description": "GPT-Image-2 API and Prompts collection. 95+ files covering image generation, editing, and creative prompts for OpenAI GPT Image 2 model. 16k+ stars.",
+      "tags": [
+        "image-generation",
+        "gpt",
+        "prompts",
+        "creative",
+        "gpt-image-2",
+        "openai"
+      ],
+      "stars": 0,
+      "skillCount": 95
+    },
+    {
+      "id": "agents-collection",
+      "name": "AGENTS COLLECTION",
+      "repo_url": "mk-knight23/AGENTS-COLLECTION",
+      "author": "mk-knight23",
+      "description": "784 agent definitions, 748 skills, 141 prompts collected across 11 AI platforms: Claude Code, Cursor, AntiGravity, OpenCode, GitHub Copilot, NanoBot, NanoClaw, OpenClaw, PicoClaw, ZeroClaw. 2479+ files. 2700+ total files.",
+      "tags": [
+        "agents",
+        "skills",
+        "prompts",
+        "claude-code",
+        "cursor",
+        "opencode",
+        "copilot",
+        "antigravity"
+      ],
+      "stars": 0,
+      "skillCount": 2479
+    },
+    {
+      "id": "awesome-prompts-songtianlun",
+      "name": "Awesome Prompts (Multi-Modal)",
+      "repo_url": "songtianlun/awesome-prompts",
+      "author": "songtianlun",
+      "description": "Curated collection of prompts for large language and multi-modal models. Organized by modality and task type — text-to-text, text-to-image, text-to-video. 88+ files.",
+      "tags": [
+        "prompts",
+        "multi-modal",
+        "image-generation",
+        "text-to-image",
+        "text-to-video",
+        "awesome"
+      ],
+      "stars": 0,
+      "skillCount": 88
+    },
+    {
+      "id": "gpt-image-2-prompts-zh",
+      "name": "GPT Image 2 Prompts (Chinese)",
+      "repo_url": "denghuichao/gpt-image-2-prompts",
+      "author": "denghuichao",
+      "description": "Prompt as Code — GPT-Image2 industrial prompt engine and template library. 80+ industrial templates, 4000+ popular prompts from Twitter and social media. 74+ files. Chinese/English.",
+      "tags": [
+        "image-generation",
+        "gpt",
+        "prompts",
+        "chinese",
+        "templates",
+        "prompt-engineering"
+      ],
+      "stars": 0,
+      "skillCount": 74
+    },
+    {
+      "id": "prompting-blueprints",
+      "name": "Prompting Blueprints",
+      "repo_url": "TomasHer/prompting-blueprints",
+      "author": "TomasHer",
+      "description": "Your guide to the Agentic AI evolution. Curated collection of concepts, tactics, prompt packs, and blueprints for building autonomous AI workflows. Tool-specific playbooks for NotebookLM, Copilot Agents, Perplexity Comet, and more. 134+ files.",
+      "tags": [
+        "prompts",
+        "blueprints",
+        "agentic-ai",
+        "workflows",
+        "playbooks",
+        "guides"
+      ],
+      "stars": 0,
+      "skillCount": 134
+    },
+    {
+      "id": "chatgpt-shortcut",
+      "name": "ChatGPT Shortcut",
+      "repo_url": "rockbenben/ChatGPT-Shortcut",
+      "author": "rockbenben",
+      "description": "Maximize your efficiency with ChatGPT shortcuts and prompt templates. 5400+ files covering productivity, development, writing, education, marketing, and more. 8.5k+ stars.",
+      "tags": [
+        "chatgpt",
+        "shortcuts",
+        "prompts",
+        "productivity",
+        "templates",
+        "efficiency"
+      ],
+      "stars": 0,
+      "skillCount": 5452
+    },
+    {
+      "id": "claude-code-best-practice",
+      "name": "Claude Code Best Practices",
+      "repo_url": "shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "description": "A practical guide and curated collection of best practices, prompts, and workflow patterns for Claude Code. 128+ files. 1.2k+ stars.",
+      "tags": [
+        "claude-code",
+        "best-practices",
+        "prompts",
+        "workflow",
+        "guides"
+      ],
+      "stars": 0,
+      "skillCount": 128
+    },
+    {
+      "id": "promptsource",
+      "name": "PromptSource",
+      "repo_url": "bigscience-workshop/promptsource",
+      "author": "bigscience-workshop",
+      "description": "PromptSource is a toolkit for creating, sharing, and using natural language prompts for training and evaluating language models. 285+ prompt templates. 3k+ stars.",
+      "tags": [
+        "prompts",
+        "nlp",
+        "evaluation",
+        "training",
+        "templates",
+        "bigscience"
+      ],
+      "stars": 0,
+      "skillCount": 285
+    },
+    {
+      "id": "sd-dynamic-prompts",
+      "name": "Stable Diffusion Dynamic Prompts",
+      "repo_url": "adieyal/sd-dynamic-prompts",
+      "author": "adieyal",
+      "description": "A dynamic prompt generation library for Stable Diffusion. 1700+ prompt files with wildcard and template support for endless image generation combinations. 2.3k+ stars.",
+      "tags": [
+        "stable-diffusion",
+        "prompts",
+        "image-generation",
+        "templates",
+        "wildcards",
+        "dynamic"
+      ],
+      "stars": 0,
+      "skillCount": 1715
+    },
+    {
+      "id": "langchain-hub",
+      "name": "LangChain Hub",
+      "repo_url": "hwchase17/langchain-hub",
+      "author": "hwchase17",
+      "description": "LangChain Hub is a centralized repository for sharing and discovering LangChain prompts, chains, agents, and tools. 84+ prompt templates and agent configurations. 3.4k+ stars.",
+      "tags": [
+        "langchain",
+        "prompts",
+        "chains",
+        "agents",
+        "templates",
+        "llm"
+      ],
+      "stars": 0,
+      "skillCount": 84
+    },
+    {
+      "id": "chatgpt-free-prompt-list",
+      "name": "ChatGPT Free Prompt List",
+      "repo_url": "mattnigh/ChatGPT-Free-Prompt-List",
+      "author": "mattnigh",
+      "description": "Free ChatGPT Prompt List — 1000+ prompts covering coding, marketing, writing, education, business, games, and life advice. 2.3k+ stars.",
+      "tags": [
+        "chatgpt",
+        "prompts",
+        "free",
+        "curated",
+        "coding",
+        "writing",
+        "marketing"
+      ],
+      "stars": 0,
+      "skillCount": 1015
+    },
+    {
+      "id": "gpts-collection",
+      "name": "GPTs Collection",
+      "repo_url": "linexjlin/GPTs",
+      "author": "linexjlin",
+      "description": "Leaked prompts of GPTs — curated collection of custom GPT instructions and knowledge from the GPT Store. 283+ files covering every category. 23k+ stars.",
+      "tags": [
+        "chatgpt",
+        "gpts",
+        "prompts",
+        "leaks",
+        "custom-gpts",
+        "gpt-store",
+        "instructions"
+      ],
+      "stars": 0,
+      "skillCount": 283
+    },
+    {
+      "id": "awesome-chatgpt-prompts-zh",
+      "name": "Awesome ChatGPT Prompts (Chinese)",
+      "repo_url": "PlexPt/awesome-chatgpt-prompts-zh",
+      "author": "PlexPt",
+      "description": "Chinese version of Awesome ChatGPT Prompts. 679+ curated Chinese prompts for ChatGPT covering creativity, development, marketing, education, and daily life. 60k+ stars.",
+      "tags": [
+        "chatgpt",
+        "prompts",
+        "chinese",
+        "awesome",
+        "curated",
+        "bilingual"
+      ],
+      "stars": 0,
+      "skillCount": 679
+    },
+    {
+      "id": "langgpt",
+      "name": "LangGPT",
+      "repo_url": "langgptai/LangGPT",
+      "author": "langgptai",
+      "description": "LangGPT — A structured prompt engineering framework. Learn how to write high-quality GPT prompts with a systematic methodology. 96+ structured prompt examples. 12k+ stars.",
+      "tags": [
+        "prompts",
+        "framework",
+        "prompt-engineering",
+        "structured",
+        "guide",
+        "education"
+      ],
+      "stars": 0,
+      "skillCount": 96
+    },
+    {
+      "id": "antigravity-awesome-skills",
+      "name": "AntiGravity Awesome Skills",
+      "repo_url": "sickn33/antigravity-awesome-skills",
+      "author": "sickn33",
+      "description": "The largest open skills library for AntiGravity — 10,000+ AI agent skills covering coding, data science, DevOps, security, creative work, and more. 39k+ stars.",
+      "tags": [
+        "skills",
+        "antigravity",
+        "agents",
+        "ai-agents",
+        "coding",
+        "devops",
+        "awesome"
+      ],
+      "stars": 0,
+      "skillCount": 10006
+    },
+    {
+      "id": "prompt-engineering-guide",
+      "name": "Prompt Engineering Guide (DAIR.AI)",
+      "repo_url": "dair-ai/Prompt-Engineering-Guide",
+      "author": "dair-ai",
+      "description": "The definitive open-source guide to Prompt Engineering. Guides, papers, lessons, notebooks, and resources for learning prompt design, chain-of-thought, and advanced techniques. 171+ files, 75k+ stars.",
+      "tags": [
+        "prompt-engineering",
+        "guide",
+        "education",
+        "papers",
+        "notebooks",
+        "resources"
+      ],
+      "stars": 0,
+      "skillCount": 171
+    },
+    {
+      "id": "bisheng-llm-platform",
+      "name": "BISHENG LLM Platform",
+      "repo_url": "dataelement/bisheng",
+      "author": "dataelement",
+      "description": "BISHENG is an open LLM devops platform for enterprise applications. Includes 111+ prompt templates, workflows, and LLM deployment configurations. 11k+ stars.",
+      "tags": [
+        "llm",
+        "prompts",
+        "platform",
+        "devops",
+        "enterprise",
+        "templates"
+      ],
+      "stars": 0,
+      "skillCount": 111
     }
   ]
 }
