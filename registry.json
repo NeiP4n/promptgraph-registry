@@ -9,7 +9,11 @@
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/systematic-debugging.md",
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["debugging", "engineering", "workflow"],
+      "tags": [
+        "debugging",
+        "engineering",
+        "workflow"
+      ],
       "stars": 0
     },
     {
@@ -19,7 +23,11 @@
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/commit-message.md",
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["git", "workflow", "documentation"],
+      "tags": [
+        "git",
+        "workflow",
+        "documentation"
+      ],
       "stars": 0
     },
     {
@@ -29,7 +37,11 @@
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/safe-refactor.md",
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["refactoring", "engineering", "workflow"],
+      "tags": [
+        "refactoring",
+        "engineering",
+        "workflow"
+      ],
       "stars": 0
     },
     {
@@ -39,7 +51,11 @@
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/pr-review.md",
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["code-review", "engineering", "collaboration"],
+      "tags": [
+        "code-review",
+        "engineering",
+        "collaboration"
+      ],
       "stars": 0
     }
   ],
@@ -48,87 +64,141 @@
       "id": "engineering-essentials",
       "name": "Engineering Essentials",
       "description": "The core day-to-day developer workflow: debug, refactor, review, and commit like a pro.",
-      "skills": ["systematic-debugging", "safe-refactor", "pr-review", "commit-message"],
+      "skills": [
+        "systematic-debugging",
+        "safe-refactor",
+        "pr-review",
+        "commit-message"
+      ],
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["engineering", "workflow", "starter"],
+      "tags": [
+        "engineering",
+        "workflow",
+        "starter"
+      ],
       "stars": 0
     },
     {
       "id": "code-quality",
       "name": "Code Quality Pack",
       "description": "Keep a codebase healthy: thorough reviews, safe refactors, and clear commit history.",
-      "skills": ["pr-review", "safe-refactor", "commit-message"],
+      "skills": [
+        "pr-review",
+        "safe-refactor",
+        "commit-message"
+      ],
       "author": "NeiP4n",
       "category": "Engineering",
-      "tags": ["quality", "code-review", "refactoring"],
+      "tags": [
+        "quality",
+        "code-review",
+        "refactoring"
+      ],
       "stars": 0
     },
     {
       "id": "awesome-ai-system-prompts",
       "name": "Awesome AI System Prompts",
-      "description": "Curated collection of production system prompts from top AI tools like v0, Manus, Claude Code, Cursor, Devin, Lovable, Windsurf, and more. ~50 prompts.",
+      "description": "46 production system prompts from top AI tools: v0, Manus, Claude Code, Cursor, Devin, Lovable, Windsurf, and more.",
       "repo_url": "dontriskit/awesome-ai-system-prompts",
-      "skillCount": 50,
+      "skillCount": 46,
       "author": "dontriskit",
       "category": "AI Tools",
-      "tags": ["system-prompts", "ai-agents", "prompt-engineering", "production"],
+      "tags": [
+        "system-prompts",
+        "ai-agents",
+        "prompt-engineering",
+        "production"
+      ],
       "stars": 0
     },
     {
       "id": "ai-system-prompts-models-tools",
       "name": "AI System Prompts & Models Tools",
-      "description": "Massive archive of real system prompts from 30+ AI coding assistants and tools: Cursor, Claude Code, v0, Devin, Windsurf, Manus, Lovable, Replit, Cline, Bolt, Trae, Perplexity, and more. 138k+ stars.",
+      "description": "Archive of real system prompts from 30+ AI tools: Cursor, Claude Code, v0, Devin, Windsurf, Manus, Lovable, Replit, Cline, Bolt, Perplexity and more. Stored as .txt files — browse via GitHub.",
       "repo_url": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "skillCount": 30,
       "author": "x1xhlol",
       "category": "AI Tools",
-      "tags": ["system-prompts", "ai-agents", "cursor", "claude-code", "v0", "devin", "windsurf", "prompt-engineering"],
+      "tags": [
+        "system-prompts",
+        "ai-agents",
+        "cursor",
+        "claude-code",
+        "v0",
+        "devin",
+        "windsurf",
+        "prompt-engineering"
+      ],
       "stars": 0
     },
     {
       "id": "llm-prompts-hailingu",
       "name": "LLM Prompts (hailingu)",
-      "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
+      "description": "15 role-based prompts for software engineers: code reviewers, architects, tech leads, API designers, and data scientists.",
       "repo_url": "hailingu/llm-prompts",
-      "skillCount": 94,
+      "skillCount": 15,
       "author": "hailingu",
       "category": "Coding",
-      "tags": ["coding", "gpt-prompts", "role-based", "software-engineering", "data-science"],
+      "tags": [
+        "coding",
+        "gpt-prompts",
+        "role-based",
+        "software-engineering",
+        "data-science"
+      ],
       "stars": 0
     },
     {
       "id": "smptdenis-prompts",
       "name": "SmetDenis Prompts",
-      "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
+      "description": "97 prompts in Russian and English for ChatGPT: senior engineers, code review, Git commits, and research.",
       "repo_url": "SmetDenis/Prompts",
-      "skillCount": 78,
+      "skillCount": 97,
       "author": "SmetDenis",
       "category": "Coding",
-      "tags": ["prompts", "chatgpt", "russian", "code-review", "gpt-5"],
+      "tags": [
+        "prompts",
+        "chatgpt",
+        "russian",
+        "code-review",
+        "gpt-5"
+      ],
       "stars": 0
     },
     {
       "id": "prompts-for-everything",
       "name": "Prompts for Everything",
-      "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
+      "description": "14 prompts for image generation (Midjourney, DALL-E), video, music (Suno), writing, coding, and data science.",
       "repo_url": "mlnjsh/prompts-for-everything",
-      "skillCount": 40,
+      "skillCount": 14,
       "author": "mlnjsh",
       "category": "Creative",
-      "tags": ["image-generation", "video", "music", "creative", "writing", "coding"],
+      "tags": [
+        "image-generation",
+        "video",
+        "music",
+        "creative",
+        "writing",
+        "coding"
+      ],
       "stars": 0
     },
     {
       "id": "elementalsouls-claude-bughunter",
       "name": "Claude BugHunter",
-      "description": "51 battle-tested skills for systematic bug hunting with Claude: planning, research, vulnerability scanning, triage, and reporting.",
+      "description": "85 skills for systematic bug hunting with Claude: planning, research, vulnerability scanning, triage, and reporting.",
       "author": "NeiP4n",
       "category": "Security",
-      "tags": ["security", "bug-hunting", "vulnerability", "community"],
+      "tags": [
+        "security",
+        "bug-hunting",
+        "vulnerability",
+        "community"
+      ],
       "stars": 0,
       "repo_url": "elementalsouls/Claude-BugHunter",
-      "skillCount": 88
+      "skillCount": 85
     },
     {
       "id": "mukul975-anthropic-cybersecurity-skills",
@@ -136,9 +206,16 @@
       "description": "A curated set of cybersecurity-focused Claude skills: threat modeling, penetration testing, secure code review, incident response, and vulnerability assessment.",
       "author": "mukul975",
       "category": "Security",
-      "tags": ["security", "cybersecurity", "penetration-testing", "threat-modeling", "community"],
+      "tags": [
+        "security",
+        "cybersecurity",
+        "penetration-testing",
+        "threat-modeling",
+        "community"
+      ],
       "stars": 0,
-      "repo_url": "mukul975/Anthropic-Cybersecurity-Skills"
+      "repo_url": "mukul975/Anthropic-Cybersecurity-Skills",
+      "skillCount": 2093
     }
   ]
 }
