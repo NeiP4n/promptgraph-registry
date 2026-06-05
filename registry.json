@@ -175,18 +175,6 @@
       "stars": 0
     },
     {
-      "id": "thepersonalaidev-awesome-cursor-templates",
-      "name": "Awesome Cursor Templates",
-      "repo_url": "thepersonalaidev/awesome-cursor-templates",
-      "skillCount": 20,
-      "author": "thepersonalaidev",
-      "description": "Skills from thepersonalaidev/awesome-cursor-templates",
-      "tags": [
-        "community"
-      ],
-      "stars": 0
-    },
-    {
       "id": "elementalsouls-claude-bughunter",
       "name": "Claude BugHunter",
       "description": "Skills from elementalsouls/Claude-BugHunter",
