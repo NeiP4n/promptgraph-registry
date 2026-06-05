@@ -247,7 +247,10 @@ async function processBundle(registry) {
   }
 
   registry.bundles = registry.bundles || [];
-  registry.bundles.push({ id: def.id, name: def.name, description: def.description, skills: def.skills, author: ISSUE_USER, tags: def.tags, stars: 0 });
+  const entry = { id: def.id, name: def.name, description: def.description, author: ISSUE_USER, tags: def.tags, stars: 0 };
+  if (def.repo_url) entry.repo_url = def.repo_url;
+  else entry.skills = def.skills;
+  registry.bundles.push(entry);
   registry.updated = new Date().toISOString().slice(0, 10);
   fs.writeFileSync('registry.json', JSON.stringify(registry, null, 2));
 

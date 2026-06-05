@@ -188,7 +188,8 @@
       "tags": [
         "community"
       ],
-      "stars": 0
+      "stars": 0,
+      "repo_url": "elementalsouls/Claude-BugHunter"
     }
   ]
 }
