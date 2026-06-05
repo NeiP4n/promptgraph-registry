@@ -2,7 +2,7 @@ name: Auto Publish Skill or Bundle
 
 on:
   issues:
-    types: [opened, reopened]
+    types: [opened, reopened, labeled]
 
 jobs:
   process:
