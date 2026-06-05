@@ -391,14 +391,47 @@ async function processBundle(registry) {
 
   if (def.repo_url) {
     entry.repo_url = def.repo_url;
-    // Count .md skill files via GitHub API (authenticated — no rate limit)
+    // Count .md skill files via GitHub API, mirroring detectSkillsDir logic:
+    // prefer known skills subdirs, fall back to root with quality filter.
     try {
+      const SKILL_DIRS = ['skills', 'commands', 'prompts', 'agents', 'skills-store', 'slash-commands', 'custom-commands', 'templates'];
+      const SKIP_NAMES = /^(readme|changelog|license|contributing|code.of.conduct|security|authors|credits|install|installation|usage|faq|glossary|index|overview|summary|roadmap|todo|notes|template|example|sample|demo|getting.started|quickstart|guide|tutorial|walkthrough|architecture|design|spec|specification|requirements|privacy|terms|disclaimer|notice|copying|warranty|funding)/i;
+      const SKIP_DIRS = /^\.(github)|^(docs?|documentation|examples?|tests?|__tests__|spec|fixtures|assets|images|img|screenshots|media|static|public|dist|build|node_modules|vendor)/i;
+
       const apiUrl = `https://api.github.com/repos/${def.repo_url}/git/trees/HEAD?recursive=1`;
       const treeJson = await httpFetch(apiUrl);
       const tree = JSON.parse(treeJson);
-      const SKIP = /readme|changelog|license|contributing|security|install/i;
-      const mdCount = (tree.tree || []).filter(f => f.path.endsWith('.md') && !SKIP.test(f.path)).length;
-      if (mdCount > 0) entry.skillCount = mdCount;
+      const allFiles = (tree.tree || []).filter(f => f.type === 'blob' && f.path.endsWith('.md'));
+
+      // Try to find a dedicated skills subdir (same priority order as detectSkillsDir)
+      let skillCount = 0;
+      let detected = null;
+      for (const dir of SKILL_DIRS) {
+        const inDir = allFiles.filter(f => f.path.startsWith(dir + '/'));
+        if (inDir.length >= 2) {
+          // Count only non-meta files within that subdir
+          skillCount = inDir.filter(f => {
+            const base = f.path.split('/').pop().replace(/\.md$/i, '').toLowerCase();
+            return !SKIP_NAMES.test(base);
+          }).length;
+          detected = dir;
+          break;
+        }
+      }
+
+      // No subdir found — count from root, skip meta files and files in skip dirs
+      if (!detected) {
+        skillCount = allFiles.filter(f => {
+          const parts = f.path.split('/');
+          const base = parts[parts.length - 1].replace(/\.md$/i, '').toLowerCase();
+          if (SKIP_NAMES.test(base)) return false;
+          if (parts.slice(0, -1).some(p => SKIP_DIRS.test(p))) return false;
+          return true;
+        }).length;
+      }
+
+      console.log(`skillCount=${skillCount} (detected dir: ${detected || 'root'})`);
+      if (skillCount > 0) entry.skillCount = skillCount;
     } catch (e) {
       console.log('Could not count .md files:', e.message);
     }
