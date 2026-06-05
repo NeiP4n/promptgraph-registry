@@ -111,7 +111,10 @@ function validateBundleDef(def) {
   if (!def.id || !NAME_RE.test(def.id)) errors.push(`Invalid or missing id — use lowercase-hyphens`);
   if (!def.name || def.name.trim().length < 3) errors.push(`Missing or too short name`);
   if (!def.description || def.description.trim().length < 15) errors.push(`Missing or too short description`);
-  if (!Array.isArray(def.skills) || def.skills.length < 2) errors.push(`Need at least 2 skill IDs`);
+  // repo_url bundles don't need a skills array
+  if (!def.repo_url) {
+    if (!Array.isArray(def.skills) || def.skills.length < 2) errors.push(`Need at least 2 skill IDs (or provide repo_url)`);
+  }
   return errors;
 }
 
