@@ -8,7 +8,9 @@ jobs:
   process:
     if: |
       contains(github.event.issue.labels.*.name, 'skill-submission') ||
-      contains(github.event.issue.labels.*.name, 'bundle-submission')
+      contains(github.event.issue.labels.*.name, 'bundle-submission') ||
+      github.event.label.name == 'skill-submission' ||
+      github.event.label.name == 'bundle-submission'
     runs-on: ubuntu-latest
     permissions:
       contents: write
