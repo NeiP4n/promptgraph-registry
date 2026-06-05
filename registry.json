@@ -189,7 +189,8 @@
         "community"
       ],
       "stars": 0,
-      "repo_url": "elementalsouls/Claude-BugHunter"
+      "repo_url": "elementalsouls/Claude-BugHunter",
+      "skillCount": 6
     }
   ]
 }
