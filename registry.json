@@ -98,42 +98,6 @@
       "stars": 0
     },
     {
-      "id": "awesome-ai-system-prompts",
-      "name": "Awesome AI System Prompts",
-      "description": "46 production system prompts from top AI tools: v0, Manus, Claude Code, Cursor, Devin, Lovable, Windsurf, and more.",
-      "repo_url": "dontriskit/awesome-ai-system-prompts",
-      "skillCount": 46,
-      "author": "dontriskit",
-      "category": "AI Tools",
-      "tags": [
-        "system-prompts",
-        "ai-agents",
-        "prompt-engineering",
-        "production"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "ai-system-prompts-models-tools",
-      "name": "AI System Prompts & Models Tools",
-      "description": "Archive of real system prompts from 30+ AI tools: Cursor, Claude Code, v0, Devin, Windsurf, Manus, Lovable, Replit, Cline, Bolt, Perplexity and more. Stored as .txt files — browse via GitHub.",
-      "repo_url": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "author": "x1xhlol",
-      "category": "AI Tools",
-      "tags": [
-        "system-prompts",
-        "ai-agents",
-        "cursor",
-        "claude-code",
-        "v0",
-        "devin",
-        "windsurf",
-        "prompt-engineering"
-      ],
-      "stars": 0,
-      "skillCount": 0
-    },
-    {
       "id": "llm-prompts-hailingu",
       "name": "LLM Prompts (hailingu)",
       "description": "15 role-based prompts for software engineers: code reviewers, architects, tech leads, API designers, and data scientists.",
@@ -147,23 +111,6 @@
         "role-based",
         "software-engineering",
         "data-science"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "smptdenis-prompts",
-      "name": "SmetDenis Prompts",
-      "description": "97 prompts in Russian and English for ChatGPT: senior engineers, code review, Git commits, and research.",
-      "repo_url": "SmetDenis/Prompts",
-      "skillCount": 97,
-      "author": "SmetDenis",
-      "category": "Coding",
-      "tags": [
-        "prompts",
-        "chatgpt",
-        "russian",
-        "code-review",
-        "gpt-5"
       ],
       "stars": 0
     },
@@ -360,37 +307,6 @@
         "deepseek",
         "chatgpt",
         "gemini"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "neverbiasu-awesome-gemini-prompts",
-      "name": "Awesome Gemini Prompts",
-      "repo_url": "neverbiasu/awesome-gemini-prompts",
-      "author": "neverbiasu",
-      "description": "The largest open-source collection of 1100+ high-quality, hand-picked, AI-cleaned prompts for Google Gemini. Features one-click run in Google AI Studio.",
-      "tags": [
-        "gemini",
-        "prompts",
-        "google-ai",
-        "ai-studio",
-        "prompt-engineering"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "0x2e-tech-awesome-ai-prompts",
-      "name": "Awesome AI Prompts",
-      "repo_url": "0x2e-Tech/awesome-ai-prompts",
-      "author": "0x2e-Tech",
-      "description": "A curated list of 500+ powerful LLM prompts for ChatGPT, Claude, Gemini, and more — organized by category. Clean, actionable, field-tested prompt library.",
-      "tags": [
-        "prompts",
-        "chatgpt",
-        "claude",
-        "gemini",
-        "llm",
-        "curated"
       ],
       "stars": 0
     },
