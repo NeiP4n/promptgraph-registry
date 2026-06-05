@@ -130,7 +130,8 @@
         "windsurf",
         "prompt-engineering"
       ],
-      "stars": 0
+      "stars": 0,
+      "skillCount": 0
     },
     {
       "id": "llm-prompts-hailingu",
@@ -392,6 +393,137 @@
         "curated"
       ],
       "stars": 0
+    },
+    {
+      "id": "awesome-chatgpt-prompts",
+      "name": "Awesome ChatGPT Prompts",
+      "repo_url": "f/awesome-chatgpt-prompts",
+      "author": "f",
+      "description": "The most popular prompt collection on GitHub (163k+ stars). Share, discover, and collect prompts from the community. 76+ curated ChatGPT prompts for every use case.",
+      "tags": [
+        "chatgpt",
+        "prompts",
+        "awesome",
+        "community",
+        "curated"
+      ],
+      "stars": 0,
+      "skillCount": 76
+    },
+    {
+      "id": "useful-ai-prompts",
+      "name": "Useful AI Prompts",
+      "repo_url": "aj-geddes/useful-ai-prompts",
+      "author": "aj-geddes",
+      "description": "A curated collection of 3200+ useful AI prompts for various tasks and use cases. Covers writing, coding, business, education, creative work, and daily life.",
+      "tags": [
+        "prompts",
+        "curated",
+        "collection",
+        "productivity",
+        "writing"
+      ],
+      "stars": 0,
+      "skillCount": 3242
+    },
+    {
+      "id": "claude-code-prompts",
+      "name": "Claude Code Prompts",
+      "repo_url": "repowise-dev/claude-code-prompts",
+      "author": "repowise-dev",
+      "description": "44 independently authored prompt templates for AI coding agents — system prompts, tool definitions, and workflow patterns for Claude Code, Cursor, and similar tools.",
+      "tags": [
+        "claude-code",
+        "prompts",
+        "coding-agents",
+        "templates",
+        "workflow"
+      ],
+      "stars": 0,
+      "skillCount": 44
+    },
+    {
+      "id": "system-prompt-library",
+      "name": "System Prompt Library",
+      "repo_url": "danielrosehill/System-Prompt-Library",
+      "author": "danielrosehill",
+      "description": "A library of 3300+ system prompts for AI agents and assistants. Automatically populated collection covering agent roles, tool use, safety instructions, and behavior guidelines.",
+      "tags": [
+        "system-prompts",
+        "library",
+        "agents",
+        "assistants",
+        "prompt-engineering"
+      ],
+      "stars": 0,
+      "skillCount": 3375
+    },
+    {
+      "id": "awesome-nano-banana-pro-prompts",
+      "name": "Awesome Nano Banana Pro Prompts",
+      "repo_url": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "author": "YouMind-OpenLab",
+      "description": "World's largest Nano Banana Pro prompt library — 10,000+ curated prompts for the ultimate AI experience. 12.4k+ stars. Covers creative, business, coding, and lifestyle.",
+      "tags": [
+        "prompts",
+        "creative",
+        "image-generation",
+        "library",
+        "awesome"
+      ],
+      "stars": 0,
+      "skillCount": 29
+    },
+    {
+      "id": "awesome-gpt-image",
+      "name": "Awesome GPT Image Prompts",
+      "repo_url": "ZeroLu/awesome-gpt-image",
+      "author": "ZeroLu",
+      "description": "A curated collection of GPT Image 2 prompts and examples. Prompts for image generation, design, art, and creative projects using OpenAI's GPT-Image-2.",
+      "tags": [
+        "image-generation",
+        "gpt",
+        "prompts",
+        "creative",
+        "design"
+      ],
+      "stars": 0,
+      "skillCount": 13
+    },
+    {
+      "id": "agentic-ai-prompt-research",
+      "name": "Agentic AI Prompt Research",
+      "repo_url": "Leonxlnx/agentic-ai-prompt-research",
+      "author": "Leonxlnx",
+      "description": "Research into how agentic AI coding assistants work. 31 reconstructed prompt patterns from Cursor, Claude Code, Windsurf, Copilot, and Cline. 2.4k+ stars.",
+      "tags": [
+        "research",
+        "agentic-ai",
+        "prompts",
+        "cursor",
+        "claude-code",
+        "windsurf",
+        "copilot"
+      ],
+      "stars": 0,
+      "skillCount": 31
+    },
+    {
+      "id": "awesome-gpt-image-2",
+      "name": "Awesome GPT Image 2",
+      "repo_url": "freestylefly/awesome-gpt-image-2",
+      "author": "freestylefly",
+      "description": "Prompt as Code | GPT-Image2 industrial prompt engine and template library. 470+ case reverse engineering, 20+ industrial templates. 7k+ stars.",
+      "tags": [
+        "image-generation",
+        "gpt",
+        "prompts",
+        "templates",
+        "prompt-engineering",
+        "chinese"
+      ],
+      "stars": 0,
+      "skillCount": 19
     }
   ]
 }
