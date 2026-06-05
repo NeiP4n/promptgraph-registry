@@ -8,11 +8,8 @@
       "description": "Debug any bug methodically instead of guessing: reproduce, isolate, hypothesize, verify, fix, confirm.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/systematic-debugging.md",
       "author": "NeiP4n",
-      "tags": [
-        "debugging",
-        "engineering",
-        "workflow"
-      ],
+      "category": "Engineering",
+      "tags": ["debugging", "engineering", "workflow"],
       "stars": 0
     },
     {
@@ -21,11 +18,8 @@
       "description": "Write clear, conventional git commit messages that explain what changed and why.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/commit-message.md",
       "author": "NeiP4n",
-      "tags": [
-        "git",
-        "workflow",
-        "documentation"
-      ],
+      "category": "Engineering",
+      "tags": ["git", "workflow", "documentation"],
       "stars": 0
     },
     {
@@ -34,11 +28,8 @@
       "description": "Refactor code without breaking it: tests-first, small behavior-preserving steps, commit after each move.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/safe-refactor.md",
       "author": "NeiP4n",
-      "tags": [
-        "refactoring",
-        "engineering",
-        "workflow"
-      ],
+      "category": "Engineering",
+      "tags": ["refactoring", "engineering", "workflow"],
       "stars": 0
     },
     {
@@ -47,11 +38,8 @@
       "description": "Review a pull request thoroughly and constructively: correctness, security, tests, readability, kind feedback.",
       "raw_url": "https://raw.githubusercontent.com/NeiP4n/promptgraph-registry/main/skills/pr-review.md",
       "author": "NeiP4n",
-      "tags": [
-        "code-review",
-        "engineering",
-        "collaboration"
-      ],
+      "category": "Engineering",
+      "tags": ["code-review", "engineering", "collaboration"],
       "stars": 0
     }
   ],
@@ -60,35 +48,20 @@
       "id": "engineering-essentials",
       "name": "Engineering Essentials",
       "description": "The core day-to-day developer workflow: debug, refactor, review, and commit like a pro.",
-      "skills": [
-        "systematic-debugging",
-        "safe-refactor",
-        "pr-review",
-        "commit-message"
-      ],
+      "skills": ["systematic-debugging", "safe-refactor", "pr-review", "commit-message"],
       "author": "NeiP4n",
-      "tags": [
-        "engineering",
-        "workflow",
-        "starter"
-      ],
+      "category": "Engineering",
+      "tags": ["engineering", "workflow", "starter"],
       "stars": 0
     },
     {
       "id": "code-quality",
       "name": "Code Quality Pack",
       "description": "Keep a codebase healthy: thorough reviews, safe refactors, and clear commit history.",
-      "skills": [
-        "pr-review",
-        "safe-refactor",
-        "commit-message"
-      ],
+      "skills": ["pr-review", "safe-refactor", "commit-message"],
       "author": "NeiP4n",
-      "tags": [
-        "quality",
-        "code-review",
-        "refactoring"
-      ],
+      "category": "Engineering",
+      "tags": ["quality", "code-review", "refactoring"],
       "stars": 0
     },
     {
@@ -98,61 +71,8 @@
       "repo_url": "dontriskit/awesome-ai-system-prompts",
       "skillCount": 50,
       "author": "dontriskit",
-      "tags": [
-        "system-prompts",
-        "ai-agents",
-        "prompt-engineering",
-        "production"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "llm-prompts-hailingu",
-      "name": "LLM Prompts (hailingu)",
-      "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
-      "repo_url": "hailingu/llm-prompts",
-      "skillCount": 94,
-      "author": "hailingu",
-      "tags": [
-        "coding",
-        "gpt-prompts",
-        "role-based",
-        "software-engineering",
-        "data-science"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "smptdenis-prompts",
-      "name": "SmetDenis Prompts",
-      "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
-      "repo_url": "SmetDenis/Prompts",
-      "skillCount": 78,
-      "author": "SmetDenis",
-      "tags": [
-        "prompts",
-        "chatgpt",
-        "russian",
-        "code-review",
-        "gpt-5"
-      ],
-      "stars": 0
-    },
-    {
-      "id": "prompts-for-everything",
-      "name": "Prompts for Everything",
-      "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
-      "repo_url": "mlnjsh/prompts-for-everything",
-      "skillCount": 40,
-      "author": "mlnjsh",
-      "tags": [
-        "image-generation",
-        "video",
-        "music",
-        "creative",
-        "writing",
-        "coding"
-      ],
+      "category": "AI Tools",
+      "tags": ["system-prompts", "ai-agents", "prompt-engineering", "production"],
       "stars": 0
     },
     {
@@ -162,26 +82,50 @@
       "repo_url": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "skillCount": 30,
       "author": "x1xhlol",
-      "tags": [
-        "system-prompts",
-        "ai-agents",
-        "cursor",
-        "claude-code",
-        "v0",
-        "devin",
-        "windsurf",
-        "prompt-engineering"
-      ],
+      "category": "AI Tools",
+      "tags": ["system-prompts", "ai-agents", "cursor", "claude-code", "v0", "devin", "windsurf", "prompt-engineering"],
+      "stars": 0
+    },
+    {
+      "id": "llm-prompts-hailingu",
+      "name": "LLM Prompts (hailingu)",
+      "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
+      "repo_url": "hailingu/llm-prompts",
+      "skillCount": 94,
+      "author": "hailingu",
+      "category": "Coding",
+      "tags": ["coding", "gpt-prompts", "role-based", "software-engineering", "data-science"],
+      "stars": 0
+    },
+    {
+      "id": "smptdenis-prompts",
+      "name": "SmetDenis Prompts",
+      "description": "Large collection of 78 prompts in Russian (RUS) and English for ChatGPT, senior engineers, code review, Git commits, and GPT-5 research examples.",
+      "repo_url": "SmetDenis/Prompts",
+      "skillCount": 78,
+      "author": "SmetDenis",
+      "category": "Coding",
+      "tags": ["prompts", "chatgpt", "russian", "code-review", "gpt-5"],
+      "stars": 0
+    },
+    {
+      "id": "prompts-for-everything",
+      "name": "Prompts for Everything",
+      "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
+      "repo_url": "mlnjsh/prompts-for-everything",
+      "skillCount": 40,
+      "author": "mlnjsh",
+      "category": "Creative",
+      "tags": ["image-generation", "video", "music", "creative", "writing", "coding"],
       "stars": 0
     },
     {
       "id": "elementalsouls-claude-bughunter",
       "name": "Claude BugHunter",
-      "description": "Skills from elementalsouls/Claude-BugHunter",
+      "description": "51 battle-tested skills for systematic bug hunting with Claude: planning, research, vulnerability scanning, triage, and reporting.",
       "author": "NeiP4n",
-      "tags": [
-        "community"
-      ],
+      "category": "Security",
+      "tags": ["security", "bug-hunting", "vulnerability", "community"],
       "stars": 0,
       "repo_url": "elementalsouls/Claude-BugHunter",
       "skillCount": 51
