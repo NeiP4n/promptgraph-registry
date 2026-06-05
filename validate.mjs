@@ -77,12 +77,17 @@ try {
     }
   }
 
-  // bundles must reference existing skill ids
+  // bundles must reference existing skill ids OR have a repo_url
   const skillIds = new Set((reg.skills || []).map(s => s.id));
   for (const b of reg.bundles || []) {
     if (!b.id || !b.name) { console.log(`FAIL bundle missing id/name`); failed = true; continue; }
+    if (b.repo_url) {
+      // repo_url bundles are valid without a skills array
+      console.log(`OK   bundle: ${b.id} (repo: ${b.repo_url})`);
+      continue;
+    }
     if (!Array.isArray(b.skills) || b.skills.length === 0) {
-      console.log(`FAIL bundle "${b.id}": must list at least one skill`); failed = true; continue;
+      console.log(`FAIL bundle "${b.id}": must list at least one skill or provide repo_url`); failed = true; continue;
     }
     for (const sid of b.skills) {
       if (!skillIds.has(sid)) { console.log(`FAIL bundle "${b.id}": references unknown skill "${sid}"`); failed = true; }
