@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-05",
+  "updated": "2026-06-06",
   "skills": [
     {
       "id": "systematic-debugging",
@@ -788,6 +788,18 @@
       ],
       "stars": 0,
       "skillCount": 111
+    },
+    {
+      "id": "nextlevelbuilder-ui-ux-pro-max-skill",
+      "name": "Ui Ux Pro Max Skill",
+      "description": "Skills from nextlevelbuilder/ui-ux-pro-max-skill",
+      "author": "NeiP4n",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "skillCount": 59
     }
   ]
 }
