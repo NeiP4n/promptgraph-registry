@@ -338,6 +338,7 @@ async function processBundle(registry) {
   let def;
 
   const gistMatch = ISSUE_BODY.match(/Gist:\s*(https?:\/\/\S+)/i);
+  const jsonBlockMatch = ISSUE_BODY.match(/```(?:json)?\s*\n(\{[\s\S]*?\})\s*\n```/);
   if (gistMatch) {
     const rawUrl = gistToRaw(gistMatch[1].trim());
     let content;
@@ -349,6 +350,12 @@ async function processBundle(registry) {
     try { def = JSON.parse(content); }
     catch (e) {
       await postComment(`❌ **Gist does not contain valid JSON.**\n\nError: ${e.message}`);
+      return;
+    }
+  } else if (jsonBlockMatch) {
+    try { def = JSON.parse(jsonBlockMatch[1]); }
+    catch (e) {
+      await postComment(`❌ **JSON block is invalid.**\n\nError: ${e.message}`);
       return;
     }
   } else {
