@@ -845,15 +845,18 @@
     },
     {
       "id": "addyosmani-agent-skills",
-      "name": "Agent Skills",
-      "description": "Skills from addyosmani/agent-skills",
-      "author": "NeiP4n",
-      "tags": [
-        "community"
-      ],
-      "stars": 0,
+      "name": "Agent Skills by Addy Osmani",
+      "description": "Production-grade engineering skills for AI coding agents by Addy Osmani — build, review, plan, ship, test, and more.",
       "repo_url": "addyosmani/agent-skills",
-      "skillCount": 25
+      "skillCount": 7,
+      "author": "addyosmani",
+      "category": "Engineering",
+      "tags": [
+        "engineering",
+        "workflow",
+        "production"
+      ],
+      "stars": 49176
     }
   ]
 }
