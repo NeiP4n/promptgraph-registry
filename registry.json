@@ -842,6 +842,18 @@
       "repo_url": "nextlevelbuilder/ui-ux-pro-max-skill",
       "skillCount": 59,
       "created_at": "2025-11-30"
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "name": "Agent Skills",
+      "description": "Skills from addyosmani/agent-skills",
+      "author": "NeiP4n",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "addyosmani/agent-skills",
+      "skillCount": 25
     }
   ]
 }
