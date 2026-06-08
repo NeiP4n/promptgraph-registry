@@ -170,7 +170,7 @@
       "created_at": "2026-02-25"
     },
     {
-      "id": "asgeirtj-system_prompts_leaks",
+      "id": "asgeirtj-system-prompts-leaks",
       "name": "System Prompts Leaks",
       "repo_url": "asgeirtj/system_prompts_leaks",
       "author": "asgeirtj",
@@ -221,7 +221,7 @@
       "created_at": "2025-11-18"
     },
     {
-      "id": "louisshark-chatgpt_system_prompt",
+      "id": "louisshark-chatgpt-system-prompt",
       "name": "ChatGPT System Prompt",
       "repo_url": "LouisShark/chatgpt_system_prompt",
       "author": "LouisShark",
