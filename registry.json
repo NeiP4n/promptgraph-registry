@@ -857,6 +857,18 @@
         "production"
       ],
       "stars": 49176
+    },
+    {
+      "id": "anthropics-skills",
+      "name": "Skills",
+      "description": "Skills from anthropics/skills",
+      "author": "NeiP4n",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "anthropics/skills",
+      "skillCount": 79
     }
   ]
 }
