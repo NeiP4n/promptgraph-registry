@@ -1,13 +1,21 @@
 {
   "id": "llm-prompts-hailingu",
   "name": "LLM Prompts (hailingu)",
-  "description": "Comprehensive collection of 94 role-based GPT prompts: code reviewers, architects, tech leads, API designers, data scientists, document writers, and domain specialists for Python, Java, Go, and frontend.",
+  "description": "15 role-based prompts for software engineers: code reviewers, architects, tech leads, API designers, and data scientists.",
   "repo_url": "hailingu/llm-prompts",
+  "skillCount": 15,
+  "author": "hailingu",
+  "category": "Coding",
   "tags": [
     "coding",
     "gpt-prompts",
     "role-based",
     "software-engineering",
     "data-science"
-  ]
+  ],
+  "stars": 0,
+  "created_at": "2026-01-29",
+  "skill_count": 107,
+  "validated": true,
+  "has_tools": true
 }

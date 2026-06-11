@@ -1,12 +1,14 @@
-﻿{
-    "id":  "glebis-claude-skills",
-    "name":  "Claude Skills",
-    "repo_url":  "glebis/claude-skills",
-    "author":  "glebis",
-    "description":  "Skills from glebis/claude-skills",
-    "tags":  [
-                 "community"
-             ],
-    "stars":  0,
-    "has_tools":  true
+{
+  "id": "glebis-claude-skills",
+  "name": "Claude Skills",
+  "repo_url": "glebis/claude-skills",
+  "author": "glebis",
+  "description": "Skills from glebis/claude-skills",
+  "tags": [
+    "community"
+  ],
+  "stars": 0,
+  "has_tools": true,
+  "skill_count": 202,
+  "validated": true
 }

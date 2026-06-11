@@ -1,8 +1,11 @@
 {
   "id": "prompts-for-everything",
   "name": "Prompts for Everything",
-  "description": "Curated prompts for image generation (Midjourney, DALL-E, Sora), video (Runway Gen-3), music (Suno), writing, business, marketing, coding, and data science.",
+  "description": "14 prompts for image generation (Midjourney, DALL-E), video, music (Suno), writing, coding, and data science.",
   "repo_url": "mlnjsh/prompts-for-everything",
+  "skillCount": 14,
+  "author": "mlnjsh",
+  "category": "Creative",
   "tags": [
     "image-generation",
     "video",
@@ -10,5 +13,9 @@
     "creative",
     "writing",
     "coding"
-  ]
+  ],
+  "stars": 0,
+  "created_at": "2026-02-22",
+  "skill_count": 14,
+  "validated": true
 }

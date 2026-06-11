@@ -12,5 +12,8 @@
     "chatgpt",
     "gemini"
   ],
-  "stars": 0
+  "stars": 0,
+  "created_at": "2025-05-14",
+  "skill_count": 16,
+  "validated": true
 }
