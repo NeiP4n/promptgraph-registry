@@ -15,10 +15,13 @@ const ISSUE_NUMBER = process.env.ISSUE_NUMBER;
 const ISSUE_BODY = process.env.ISSUE_BODY || '';
 const ISSUE_LABELS = (process.env.ISSUE_LABELS || '').split(',');
 const ISSUE_USER = process.env.ISSUE_USER || 'unknown';
+const ISSUE_TITLE = process.env.ISSUE_TITLE || '';
 const REPO = process.env.GITHUB_REPOSITORY || 'NeiP4n/promptgraph-registry';
 
-const isBundle = ISSUE_LABELS.some(l => l.includes('bundle'));
-const isSkill  = ISSUE_LABELS.some(l => l.includes('skill'));
+// Type is determined by the issue-title prefix ("Bundle:" / "Skill:") so external
+// contributors (who can't apply labels) can submit; labels remain a fallback.
+const isBundle = /^bundle:/i.test(ISSUE_TITLE.trim()) || ISSUE_LABELS.some(l => l.includes('bundle'));
+const isSkill  = /^skill:/i.test(ISSUE_TITLE.trim())  || ISSUE_LABELS.some(l => l.includes('skill'));
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 

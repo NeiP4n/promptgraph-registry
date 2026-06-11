@@ -6,7 +6,12 @@ on:
 
 jobs:
   process:
+    # External contributors cannot add labels (GitHub restricts this to users with
+    # triage/write access), so gate on the issue title prefix instead. pg emits
+    # "Bundle: <name>" / "Skill: <name>" titles. Labels still work for maintainers.
     if: |
+      startsWith(github.event.issue.title, 'Bundle:') ||
+      startsWith(github.event.issue.title, 'Skill:') ||
       contains(github.event.issue.labels.*.name, 'skill-submission') ||
       contains(github.event.issue.labels.*.name, 'bundle-submission') ||
       github.event.label.name == 'skill-submission' ||
@@ -30,6 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
