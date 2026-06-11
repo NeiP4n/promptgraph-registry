@@ -862,6 +862,18 @@
       "stars": 0,
       "repo_url": "vercel-labs/skills",
       "skillCount": 2
+    },
+    {
+      "id": "microsoft-skills",
+      "name": "Skills",
+      "description": "Skills from microsoft/skills",
+      "author": "anot-not-any",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "microsoft/skills",
+      "skillCount": 1
     }
   ]
 }
