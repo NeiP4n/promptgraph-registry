@@ -114,7 +114,7 @@
       ],
       "stars": 0,
       "created_at": "2026-01-29",
-      "skill_count": 14,
+      "skill_count": 13,
       "validated": true,
       "has_tools": true
     },
@@ -155,7 +155,7 @@
       "repo_url": "elementalsouls/Claude-BugHunter",
       "skillCount": 85,
       "created_at": "2026-05-05",
-      "skill_count": 71,
+      "skill_count": 57,
       "validated": true,
       "has_tools": true
     },
@@ -176,7 +176,7 @@
       "repo_url": "mukul975/Anthropic-Cybersecurity-Skills",
       "skillCount": 2093,
       "created_at": "2026-02-25",
-      "skill_count": 760,
+      "skill_count": 741,
       "validated": true,
       "has_tools": true
     },
@@ -197,7 +197,7 @@
       ],
       "stars": 0,
       "created_at": "2025-05-03",
-      "skill_count": 82,
+      "skill_count": 168,
       "validated": true,
       "has_tools": true
     },
@@ -217,7 +217,7 @@
       ],
       "stars": 0,
       "created_at": "2025-03-04",
-      "skill_count": 4,
+      "skill_count": 24,
       "validated": true
     },
     {
@@ -235,26 +235,7 @@
       ],
       "stars": 0,
       "created_at": "2025-11-18",
-      "skill_count": 350,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "louisshark-chatgpt-system-prompt",
-      "name": "ChatGPT System Prompt",
-      "repo_url": "LouisShark/chatgpt_system_prompt",
-      "author": "LouisShark",
-      "description": "A massive collection of GPT system prompts, prompt injection/leaking knowledge, and custom GPT instructions. 10k+ stars, 1400+ files.",
-      "tags": [
-        "chatgpt",
-        "system-prompts",
-        "prompt-engineering",
-        "gpt",
-        "injection"
-      ],
-      "stars": 0,
-      "created_at": "2023-11-01",
-      "skill_count": 1313,
+      "skill_count": 344,
       "validated": true,
       "has_tools": true
     },
@@ -275,7 +256,7 @@
       ],
       "stars": 0,
       "created_at": "2024-08-15",
-      "skill_count": 61,
+      "skill_count": 146,
       "validated": true,
       "has_tools": true
     },
@@ -295,7 +276,7 @@
       ],
       "stars": 0,
       "created_at": "2024-01-19",
-      "skill_count": 17,
+      "skill_count": 15,
       "validated": true
     },
     {
@@ -314,7 +295,7 @@
       ],
       "stars": 0,
       "created_at": "2025-05-14",
-      "skill_count": 9,
+      "skill_count": 5,
       "validated": true
     },
     {
@@ -333,7 +314,7 @@
       "stars": 0,
       "skillCount": 76,
       "created_at": "2021-12-05",
-      "skill_count": 6,
+      "skill_count": 12,
       "validated": true,
       "has_tools": true
     },
@@ -353,7 +334,7 @@
       "stars": 0,
       "skillCount": 3242,
       "created_at": "2025-06-08",
-      "skill_count": 277,
+      "skill_count": 275,
       "validated": true,
       "has_tools": true
     },
@@ -392,7 +373,7 @@
       "stars": 0,
       "skillCount": 3375,
       "created_at": "2025-05-27",
-      "skill_count": 6,
+      "skill_count": 7,
       "validated": true,
       "has_tools": true
     },
@@ -435,8 +416,7 @@
       "skillCount": 19,
       "created_at": "2026-04-25",
       "skill_count": 1,
-      "validated": true,
-      "has_tools": true
+      "validated": true
     },
     {
       "id": "leaked-system-prompts",
@@ -456,30 +436,8 @@
       "stars": 0,
       "skillCount": 122,
       "created_at": "2023-05-16",
-      "skill_count": 116,
+      "skill_count": 110,
       "validated": true
-    },
-    {
-      "id": "the-big-prompt-library",
-      "name": "The Big Prompt Library",
-      "repo_url": "0xeb/TheBigPromptLibrary",
-      "author": "0xeb",
-      "description": "Massive collection of system prompts, custom instructions, jailbreak prompts, and GPT protections for ChatGPT, Microsoft Copilot, Claude, Gemini, and more. 2000+ files. 5.1k+ stars.",
-      "tags": [
-        "system-prompts",
-        "prompts",
-        "jailbreak",
-        "security",
-        "chatgpt",
-        "claude",
-        "gemini"
-      ],
-      "stars": 0,
-      "skillCount": 2017,
-      "created_at": "2023-11-24",
-      "skill_count": 1679,
-      "validated": true,
-      "has_tools": true
     },
     {
       "id": "agency-agents",
@@ -500,7 +458,7 @@
       "stars": 0,
       "skillCount": 257,
       "created_at": "2025-10-13",
-      "skill_count": 53,
+      "skill_count": 235,
       "validated": true,
       "has_tools": true
     },
@@ -521,7 +479,7 @@
       "stars": 0,
       "skillCount": 95,
       "created_at": "2025-04-28",
-      "skill_count": 77,
+      "skill_count": 79,
       "validated": true,
       "has_tools": true
     },
@@ -544,7 +502,7 @@
       "stars": 0,
       "skillCount": 2479,
       "created_at": "2026-03-10",
-      "skill_count": 803,
+      "skill_count": 755,
       "validated": true,
       "has_tools": true
     },
@@ -565,7 +523,7 @@
       "stars": 0,
       "skillCount": 74,
       "created_at": "2026-05-05",
-      "skill_count": 70,
+      "skill_count": 69,
       "validated": true
     },
     {
@@ -585,7 +543,7 @@
       "stars": 0,
       "skillCount": 134,
       "created_at": "2025-09-06",
-      "skill_count": 34,
+      "skill_count": 103,
       "validated": true,
       "has_tools": true
     },
@@ -607,26 +565,6 @@
       "skillCount": 5452,
       "created_at": "2023-02-24",
       "skill_count": 187,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "claude-code-best-practice",
-      "name": "Claude Code Best Practices",
-      "repo_url": "shanraisshan/claude-code-best-practice",
-      "author": "shanraisshan",
-      "description": "A practical guide and curated collection of best practices, prompts, and workflow patterns for Claude Code. 128+ files. 1.2k+ stars.",
-      "tags": [
-        "claude-code",
-        "best-practices",
-        "prompts",
-        "workflow",
-        "guides"
-      ],
-      "stars": 0,
-      "skillCount": 128,
-      "created_at": "2025-10-31",
-      "skill_count": 35,
       "validated": true,
       "has_tools": true
     },
@@ -690,7 +628,7 @@
       "stars": 0,
       "skillCount": 1015,
       "created_at": "2023-01-14",
-      "skill_count": 1,
+      "skill_count": 2,
       "validated": true,
       "has_tools": true
     },
@@ -712,7 +650,7 @@
       "stars": 0,
       "skillCount": 283,
       "created_at": "2023-11-11",
-      "skill_count": 281,
+      "skill_count": 263,
       "validated": true
     },
     {
@@ -732,7 +670,7 @@
       "stars": 0,
       "skillCount": 679,
       "created_at": "2022-12-12",
-      "skill_count": 672,
+      "skill_count": 675,
       "validated": true
     },
     {
@@ -752,9 +690,8 @@
       "stars": 0,
       "skillCount": 96,
       "created_at": "2023-05-06",
-      "skill_count": 9,
-      "validated": true,
-      "has_tools": true
+      "skill_count": 8,
+      "validated": true
     },
     {
       "id": "antigravity-awesome-skills",
@@ -774,7 +711,7 @@
       "stars": 0,
       "skillCount": 10006,
       "created_at": "2026-01-14",
-      "skill_count": 1966,
+      "skill_count": 1804,
       "validated": true,
       "has_tools": true
     },
@@ -800,43 +737,6 @@
       "has_tools": true
     },
     {
-      "id": "bisheng-llm-platform",
-      "name": "BISHENG LLM Platform",
-      "repo_url": "dataelement/bisheng",
-      "author": "dataelement",
-      "description": "BISHENG is an open LLM devops platform for enterprise applications. Includes 111+ prompt templates, workflows, and LLM deployment configurations. 11k+ stars.",
-      "tags": [
-        "llm",
-        "prompts",
-        "platform",
-        "devops",
-        "enterprise",
-        "templates"
-      ],
-      "stars": 0,
-      "skillCount": 111,
-      "created_at": "2023-08-28",
-      "skill_count": 8,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "nextlevelbuilder-ui-ux-pro-max-skill",
-      "name": "Ui Ux Pro Max Skill",
-      "description": "Skills from nextlevelbuilder/ui-ux-pro-max-skill",
-      "author": "NeiP4n",
-      "tags": [
-        "community"
-      ],
-      "stars": 0,
-      "repo_url": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "skillCount": 59,
-      "created_at": "2025-11-30",
-      "skill_count": 8,
-      "validated": true,
-      "has_tools": true
-    },
-    {
       "id": "addyosmani-agent-skills",
       "name": "Agent Skills by Addy Osmani",
       "description": "Production-grade engineering skills for AI coding agents by Addy Osmani â€” build, review, plan, ship, test, and more.",
@@ -850,7 +750,7 @@
         "production"
       ],
       "stars": 49176,
-      "skill_count": 27,
+      "skill_count": 25,
       "validated": true,
       "has_tools": true
     },
@@ -865,7 +765,7 @@
       "stars": 0,
       "repo_url": "anthropics/skills",
       "skillCount": 79,
-      "skill_count": 67,
+      "skill_count": 66,
       "validated": true,
       "has_tools": true
     },
@@ -898,20 +798,6 @@
       "has_tools": true
     },
     {
-      "id": "applied-artificial-intelligence-claude-code-toolkit",
-      "name": "Claude Code Toolkit",
-      "repo_url": "applied-artificial-intelligence/claude-code-toolkit",
-      "author": "applied-artificial-intelligence",
-      "description": "Skills from applied-artificial-intelligence/claude-code-toolkit",
-      "tags": [
-        "community"
-      ],
-      "stars": 0,
-      "skill_count": 6,
-      "validated": true,
-      "has_tools": true
-    },
-    {
       "id": "glebis-claude-skills",
       "name": "Claude Skills",
       "repo_url": "glebis/claude-skills",
@@ -922,7 +808,7 @@
       ],
       "stars": 0,
       "has_tools": true,
-      "skill_count": 4,
+      "skill_count": 3,
       "validated": true
     },
     {
@@ -935,7 +821,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 66,
+      "skill_count": 61,
       "validated": true,
       "has_tools": true
     },
@@ -962,7 +848,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 1,
+      "skill_count": 2,
       "validated": true
     }
   ]
