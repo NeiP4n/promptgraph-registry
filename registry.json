@@ -880,6 +880,17 @@
         "community"
       ],
       "stars": 0
+    },
+    {
+      "id": "spillwavesolutions-mastering-git-cli-agent-skill",
+      "name": "Mastering Git Cli Agent Skill",
+      "repo_url": "SpillwaveSolutions/mastering-git-cli-agent-skill",
+      "author": "SpillwaveSolutions",
+      "description": "Skills from SpillwaveSolutions/mastering-git-cli-agent-skill",
+      "tags": [
+        "community"
+      ],
+      "stars": 0
     }
   ]
 }
