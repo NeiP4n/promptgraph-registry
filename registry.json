@@ -890,6 +890,18 @@
       "skill_count": 30,
       "validated": true,
       "has_tools": true
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "name": "Scientific Agent Skills",
+      "description": "Skills from K-Dense-AI/scientific-agent-skills",
+      "author": "anot-not-any",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "K-Dense-AI/scientific-agent-skills",
+      "skillCount": 914
     }
   ]
 }
