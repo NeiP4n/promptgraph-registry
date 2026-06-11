@@ -850,6 +850,18 @@
       "stars": 0,
       "skill_count": 2,
       "validated": true
+    },
+    {
+      "id": "vercel-labs-skills",
+      "name": "Skills",
+      "description": "Skills from vercel-labs/skills",
+      "author": "anot-not-any",
+      "tags": [
+        "community"
+      ],
+      "stars": 0,
+      "repo_url": "vercel-labs/skills",
+      "skillCount": 2
     }
   ]
 }
