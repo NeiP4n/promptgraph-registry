@@ -874,6 +874,22 @@
       "stars": 0,
       "repo_url": "microsoft/skills",
       "skillCount": 1
+    },
+    {
+      "id": "google-skills",
+      "name": "Google Skills",
+      "description": "Official Google agent skills — Cloud / Vertex AI agent platform deployment, evaluation, inference, and more.",
+      "repo_url": "google/skills",
+      "author": "google",
+      "tags": [
+        "community",
+        "google",
+        "cloud"
+      ],
+      "stars": 0,
+      "skill_count": 30,
+      "validated": true,
+      "has_tools": true
     }
   ]
 }
