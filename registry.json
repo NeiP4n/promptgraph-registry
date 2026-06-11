@@ -913,6 +913,17 @@
         "community"
       ],
       "stars": 0
+    },
+    {
+      "id": "softaworks-agent-toolkit",
+      "name": "Agent Toolkit",
+      "repo_url": "softaworks/agent-toolkit",
+      "author": "softaworks",
+      "description": "Skills from softaworks/agent-toolkit",
+      "tags": [
+        "community"
+      ],
+      "stars": 0
     }
   ]
 }
