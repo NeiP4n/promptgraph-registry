@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-08",
+  "updated": "2026-06-11",
   "skills": [
     {
       "id": "systematic-debugging",
@@ -869,6 +869,17 @@
       "stars": 0,
       "repo_url": "anthropics/skills",
       "skillCount": 79
+    },
+    {
+      "id": "netresearch-git-workflow-skill",
+      "name": "Git Workflow Skill",
+      "repo_url": "netresearch/git-workflow-skill",
+      "author": "netresearch",
+      "description": "Skills from netresearch/git-workflow-skill",
+      "tags": [
+        "community"
+      ],
+      "stars": 0
     }
   ]
 }
