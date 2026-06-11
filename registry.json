@@ -756,7 +756,7 @@
     },
     {
       "id": "anthropics-skills",
-      "name": "Skills",
+      "name": "Anthropics Skills",
       "description": "Skills from anthropics/skills",
       "author": "NeiP4n",
       "tags": [
@@ -840,7 +840,7 @@
     },
     {
       "id": "rockorager-skills",
-      "name": "Skills",
+      "name": "Rockorager Skills",
       "repo_url": "rockorager/skills",
       "author": "rockorager",
       "description": "Skills from rockorager/skills",
@@ -853,7 +853,7 @@
     },
     {
       "id": "vercel-labs-skills",
-      "name": "Skills",
+      "name": "Vercel Labs Skills",
       "description": "Skills from vercel-labs/skills",
       "author": "anot-not-any",
       "tags": [
@@ -865,7 +865,7 @@
     },
     {
       "id": "microsoft-skills",
-      "name": "Skills",
+      "name": "Microsoft Skills",
       "description": "Skills from microsoft/skills",
       "author": "anot-not-any",
       "tags": [
