@@ -114,7 +114,7 @@
       ],
       "stars": 0,
       "created_at": "2026-01-29",
-      "skill_count": 107,
+      "skill_count": 14,
       "validated": true,
       "has_tools": true
     },
@@ -136,7 +136,7 @@
       ],
       "stars": 0,
       "created_at": "2026-02-22",
-      "skill_count": 14,
+      "skill_count": 13,
       "validated": true
     },
     {
@@ -155,7 +155,7 @@
       "repo_url": "elementalsouls/Claude-BugHunter",
       "skillCount": 85,
       "created_at": "2026-05-05",
-      "skill_count": 146,
+      "skill_count": 71,
       "validated": true,
       "has_tools": true
     },
@@ -176,7 +176,7 @@
       "repo_url": "mukul975/Anthropic-Cybersecurity-Skills",
       "skillCount": 2093,
       "created_at": "2026-02-25",
-      "skill_count": 2378,
+      "skill_count": 760,
       "validated": true,
       "has_tools": true
     },
@@ -197,7 +197,7 @@
       ],
       "stars": 0,
       "created_at": "2025-05-03",
-      "skill_count": 245,
+      "skill_count": 82,
       "validated": true,
       "has_tools": true
     },
@@ -217,7 +217,7 @@
       ],
       "stars": 0,
       "created_at": "2025-03-04",
-      "skill_count": 27,
+      "skill_count": 4,
       "validated": true
     },
     {
@@ -235,7 +235,7 @@
       ],
       "stars": 0,
       "created_at": "2025-11-18",
-      "skill_count": 351,
+      "skill_count": 350,
       "validated": true,
       "has_tools": true
     },
@@ -254,28 +254,7 @@
       ],
       "stars": 0,
       "created_at": "2023-11-01",
-      "skill_count": 1328,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "elifuzz-awesome-system-prompts",
-      "name": "Awesome System Prompts",
-      "repo_url": "EliFuzz/awesome-system-prompts",
-      "author": "EliFuzz",
-      "description": "Comprehensive collection of system prompts and tool definitions from AI coding agents: Augment Code, Claude Code, Cursor, Devin AI, Gemini, Codex, OpenAI, and more. 469+ files.",
-      "tags": [
-        "system-prompts",
-        "ai-agents",
-        "cursor",
-        "claude-code",
-        "devin",
-        "gemini",
-        "awesome"
-      ],
-      "stars": 0,
-      "created_at": "2025-10-03",
-      "skill_count": 174,
+      "skill_count": 1313,
       "validated": true,
       "has_tools": true
     },
@@ -296,7 +275,7 @@
       ],
       "stars": 0,
       "created_at": "2024-08-15",
-      "skill_count": 175,
+      "skill_count": 61,
       "validated": true,
       "has_tools": true
     },
@@ -335,7 +314,7 @@
       ],
       "stars": 0,
       "created_at": "2025-05-14",
-      "skill_count": 16,
+      "skill_count": 9,
       "validated": true
     },
     {
@@ -354,7 +333,7 @@
       "stars": 0,
       "skillCount": 76,
       "created_at": "2021-12-05",
-      "skill_count": 20,
+      "skill_count": 6,
       "validated": true,
       "has_tools": true
     },
@@ -374,7 +353,7 @@
       "stars": 0,
       "skillCount": 3242,
       "created_at": "2025-06-08",
-      "skill_count": 3036,
+      "skill_count": 277,
       "validated": true,
       "has_tools": true
     },
@@ -394,7 +373,7 @@
       "stars": 0,
       "skillCount": 44,
       "created_at": "2026-04-01",
-      "skill_count": 41,
+      "skill_count": 5,
       "validated": true
     },
     {
@@ -413,47 +392,7 @@
       "stars": 0,
       "skillCount": 3375,
       "created_at": "2025-05-27",
-      "skill_count": 8,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "awesome-nano-banana-pro-prompts",
-      "name": "Awesome Nano Banana Pro Prompts",
-      "repo_url": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
-      "author": "YouMind-OpenLab",
-      "description": "World's largest Nano Banana Pro prompt library Ã¢â‚¬â€ 10,000+ curated prompts for the ultimate AI experience. 12.4k+ stars. Covers creative, business, coding, and lifestyle.",
-      "tags": [
-        "prompts",
-        "creative",
-        "image-generation",
-        "library",
-        "awesome"
-      ],
-      "stars": 0,
-      "skillCount": 29,
-      "created_at": "2025-11-23",
-      "skill_count": 16,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "awesome-gpt-image",
-      "name": "Awesome GPT Image Prompts",
-      "repo_url": "ZeroLu/awesome-gpt-image",
-      "author": "ZeroLu",
-      "description": "A curated collection of GPT Image 2 prompts and examples. Prompts for image generation, design, art, and creative projects using OpenAI's GPT-Image-2.",
-      "tags": [
-        "image-generation",
-        "gpt",
-        "prompts",
-        "creative",
-        "design"
-      ],
-      "stars": 0,
-      "skillCount": 13,
-      "created_at": "2026-04-07",
-      "skill_count": 10,
+      "skill_count": 6,
       "validated": true,
       "has_tools": true
     },
@@ -495,7 +434,7 @@
       "stars": 0,
       "skillCount": 19,
       "created_at": "2026-04-25",
-      "skill_count": 9,
+      "skill_count": 1,
       "validated": true,
       "has_tools": true
     },
@@ -517,7 +456,7 @@
       "stars": 0,
       "skillCount": 122,
       "created_at": "2023-05-16",
-      "skill_count": 121,
+      "skill_count": 116,
       "validated": true
     },
     {
@@ -538,7 +477,7 @@
       "stars": 0,
       "skillCount": 2017,
       "created_at": "2023-11-24",
-      "skill_count": 1852,
+      "skill_count": 1679,
       "validated": true,
       "has_tools": true
     },
@@ -561,7 +500,7 @@
       "stars": 0,
       "skillCount": 257,
       "created_at": "2025-10-13",
-      "skill_count": 256,
+      "skill_count": 53,
       "validated": true,
       "has_tools": true
     },
@@ -582,7 +521,7 @@
       "stars": 0,
       "skillCount": 95,
       "created_at": "2025-04-28",
-      "skill_count": 89,
+      "skill_count": 77,
       "validated": true,
       "has_tools": true
     },
@@ -605,29 +544,9 @@
       "stars": 0,
       "skillCount": 2479,
       "created_at": "2026-03-10",
-      "skill_count": 2143,
+      "skill_count": 803,
       "validated": true,
       "has_tools": true
-    },
-    {
-      "id": "awesome-prompts-songtianlun",
-      "name": "Awesome Prompts (Multi-Modal)",
-      "repo_url": "songtianlun/awesome-prompts",
-      "author": "songtianlun",
-      "description": "Curated collection of prompts for large language and multi-modal models. Organized by modality and task type Ã¢â‚¬â€ text-to-text, text-to-image, text-to-video. 88+ files.",
-      "tags": [
-        "prompts",
-        "multi-modal",
-        "image-generation",
-        "text-to-image",
-        "text-to-video",
-        "awesome"
-      ],
-      "stars": 0,
-      "skillCount": 88,
-      "created_at": "2025-09-02",
-      "skill_count": 80,
-      "validated": true
     },
     {
       "id": "gpt-image-2-prompts-zh",
@@ -646,7 +565,7 @@
       "stars": 0,
       "skillCount": 74,
       "created_at": "2026-05-05",
-      "skill_count": 69,
+      "skill_count": 70,
       "validated": true
     },
     {
@@ -666,7 +585,7 @@
       "stars": 0,
       "skillCount": 134,
       "created_at": "2025-09-06",
-      "skill_count": 119,
+      "skill_count": 34,
       "validated": true,
       "has_tools": true
     },
@@ -687,7 +606,7 @@
       "stars": 0,
       "skillCount": 5452,
       "created_at": "2023-02-24",
-      "skill_count": 217,
+      "skill_count": 187,
       "validated": true,
       "has_tools": true
     },
@@ -707,7 +626,7 @@
       "stars": 0,
       "skillCount": 128,
       "created_at": "2025-10-31",
-      "skill_count": 110,
+      "skill_count": 35,
       "validated": true,
       "has_tools": true
     },
@@ -749,27 +668,6 @@
       "stars": 0,
       "skillCount": 1715,
       "created_at": "2022-10-08",
-      "skill_count": 5,
-      "validated": true,
-      "has_tools": true
-    },
-    {
-      "id": "langchain-hub",
-      "name": "LangChain Hub",
-      "repo_url": "hwchase17/langchain-hub",
-      "author": "hwchase17",
-      "description": "LangChain Hub is a centralized repository for sharing and discovering LangChain prompts, chains, agents, and tools. 84+ prompt templates and agent configurations. 3.4k+ stars.",
-      "tags": [
-        "langchain",
-        "prompts",
-        "chains",
-        "agents",
-        "templates",
-        "llm"
-      ],
-      "stars": 0,
-      "skillCount": 84,
-      "created_at": "2023-01-11",
       "skill_count": 1,
       "validated": true,
       "has_tools": true
@@ -792,7 +690,7 @@
       "stars": 0,
       "skillCount": 1015,
       "created_at": "2023-01-14",
-      "skill_count": 5,
+      "skill_count": 1,
       "validated": true,
       "has_tools": true
     },
@@ -834,7 +732,7 @@
       "stars": 0,
       "skillCount": 679,
       "created_at": "2022-12-12",
-      "skill_count": 675,
+      "skill_count": 672,
       "validated": true
     },
     {
@@ -854,7 +752,7 @@
       "stars": 0,
       "skillCount": 96,
       "created_at": "2023-05-06",
-      "skill_count": 75,
+      "skill_count": 9,
       "validated": true,
       "has_tools": true
     },
@@ -876,7 +774,7 @@
       "stars": 0,
       "skillCount": 10006,
       "created_at": "2026-01-14",
-      "skill_count": 9117,
+      "skill_count": 1966,
       "validated": true,
       "has_tools": true
     },
@@ -897,7 +795,7 @@
       "stars": 0,
       "skillCount": 171,
       "created_at": "2022-12-16",
-      "skill_count": 9,
+      "skill_count": 8,
       "validated": true,
       "has_tools": true
     },
@@ -918,7 +816,7 @@
       "stars": 0,
       "skillCount": 111,
       "created_at": "2023-08-28",
-      "skill_count": 10,
+      "skill_count": 8,
       "validated": true,
       "has_tools": true
     },
@@ -934,7 +832,7 @@
       "repo_url": "nextlevelbuilder/ui-ux-pro-max-skill",
       "skillCount": 59,
       "created_at": "2025-11-30",
-      "skill_count": 63,
+      "skill_count": 8,
       "validated": true,
       "has_tools": true
     },
@@ -952,7 +850,7 @@
         "production"
       ],
       "stars": 49176,
-      "skill_count": 55,
+      "skill_count": 27,
       "validated": true,
       "has_tools": true
     },
@@ -967,7 +865,7 @@
       "stars": 0,
       "repo_url": "anthropics/skills",
       "skillCount": 79,
-      "skill_count": 85,
+      "skill_count": 67,
       "validated": true,
       "has_tools": true
     },
@@ -981,7 +879,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 14,
+      "skill_count": 1,
       "validated": true,
       "has_tools": true
     },
@@ -995,7 +893,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 10,
+      "skill_count": 1,
       "validated": true,
       "has_tools": true
     },
@@ -1009,7 +907,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 60,
+      "skill_count": 6,
       "validated": true,
       "has_tools": true
     },
@@ -1024,7 +922,7 @@
       ],
       "stars": 0,
       "has_tools": true,
-      "skill_count": 202,
+      "skill_count": 4,
       "validated": true
     },
     {
@@ -1037,7 +935,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 330,
+      "skill_count": 66,
       "validated": true,
       "has_tools": true
     },
@@ -1051,7 +949,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 279,
+      "skill_count": 30,
       "validated": true
     },
     {
@@ -1064,7 +962,7 @@
         "community"
       ],
       "stars": 0,
-      "skill_count": 2,
+      "skill_count": 1,
       "validated": true
     }
   ]
