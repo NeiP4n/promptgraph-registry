@@ -902,6 +902,17 @@
         "community"
       ],
       "stars": 0
+    },
+    {
+      "id": "glebis-claude-skills",
+      "name": "Claude Skills",
+      "repo_url": "glebis/claude-skills",
+      "author": "glebis",
+      "description": "Skills from glebis/claude-skills",
+      "tags": [
+        "community"
+      ],
+      "stars": 0
     }
   ]
 }
