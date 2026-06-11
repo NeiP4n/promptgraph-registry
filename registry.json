@@ -891,6 +891,17 @@
         "community"
       ],
       "stars": 0
+    },
+    {
+      "id": "applied-artificial-intelligence-claude-code-toolkit",
+      "name": "Claude Code Toolkit",
+      "repo_url": "applied-artificial-intelligence/claude-code-toolkit",
+      "author": "applied-artificial-intelligence",
+      "description": "Skills from applied-artificial-intelligence/claude-code-toolkit",
+      "tags": [
+        "community"
+      ],
+      "stars": 0
     }
   ]
 }
